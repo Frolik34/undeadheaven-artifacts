@@ -148,7 +148,7 @@
    "st": 9,
    "wa": 0,
    "tox": -4,
-   "mb": 0,
+   "mb": 4,
    "fa": 5,
    "an": 0,
    "fall": 1,
@@ -278,7 +278,8 @@
    "st": 3,
    "tox": 2,
    "jb": 8,
-   "bleed": 1
+   "bleed": 1,
+   "mb": 1
   },
   "MF_Artefact_SkullMiser": {
    "hp": 8,
@@ -295,7 +296,7 @@
    "wa": 5,
    "st": 12,
    "tox": 3,
-   "mb": 0,
+   "mb": -3,
    "fa": -3
   },
   "MF_Artefact_Blood": {
@@ -400,7 +401,7 @@
    "wa": 5,
    "st": 5,
    "tox": 2,
-   "mb": 0
+   "mb": -1
   },
   "MF_Artefact_Pusto": {
    "bl": 4,
@@ -620,7 +621,7 @@
    "sh": 2,
    "st": -2,
    "tox": 3,
-   "mb": 0,
+   "mb": 2,
    "bleed": 1
   },
   "ON_Art_Galka": {
@@ -629,7 +630,8 @@
    "wa": 5,
    "st": 4,
    "tox": 2,
-   "jb": 8
+   "jb": 8,
+   "mb": 2
   },
   "ON_Art_Greben": {
    "bl": -3,
@@ -708,7 +710,7 @@
    "en": -2,
    "st": 0,
    "tox": 4,
-   "mb": 0,
+   "mb": 2,
    "cc": 10,
    "fa": 8,
    "hbl": 1,
@@ -736,7 +738,7 @@
    "st": -2,
    "tox": 3,
    "jb": 12,
-   "mb": 0,
+   "mb": -2,
    "hbl": 1,
    "fall": 1
   },
@@ -753,7 +755,7 @@
    "bl": -9,
    "st": 10,
    "tox": -9,
-   "mb": 0,
+   "mb": 3,
    "fa": -2,
    "brok": 20,
    "fall": 1
@@ -773,7 +775,8 @@
    "st": -2,
    "tox": -7,
    "cc": -2,
-   "bleed": 1
+   "bleed": 1,
+   "mb": 1
   },
   "ON_Art_Zavtrak_Turista": {
    "hp": 7,
@@ -781,7 +784,7 @@
    "wa": 8,
    "st": -5,
    "tox": 5,
-   "mb": 0,
+   "mb": 2,
    "bleed": 0,
    "fall": 1
   },

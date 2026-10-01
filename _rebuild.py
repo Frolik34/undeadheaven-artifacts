@@ -8,7 +8,7 @@
 
 Единицы (тики каждые 3 сек; в описаниях и калькуляторе очки игрока = значение конфига x множитель):
   HP           addHP        x1    |  Прыжок   jumpBust    = очки (скорость взлёта; 16 = ~15 м высоты)
-  Кровь        addBlood     x4    |  Скорость moveBoost   = 10 x очки
+  Кровь        addBlood     x4    |  Скорость moveBoost   = 5 x очки (+5% бега за очко)
   Стойкость    addShock     x8    |  Защита от пуль     damageReduction.FIRE_ARM      x1
   Еда          ENERGY       x5    |  Защита от ударов   damageReduction.CLOSE_COMBAT  x1
   Вода         WATER        x5    |  Защита от аномалий damageReduction.STUN+EXPLOSION x1
@@ -243,7 +243,7 @@ def main():
         if g(d, 'brok'):
             e['BrokenLegsChance'] = d['brok']
         e['jumpBust'] = 1.0 * g(d, 'jb')   # jumpBust = скорость взлёта м/с (16 = ~15 м высоты)
-        e['moveBoost'] = 10.0 * g(d, 'mb')
+        e['moveBoost'] = 5.0 * g(d, 'mb')   # moveBoost = +5% скорости бега за очко (100 у автора = x2, дёргало)
         e['fallDamageResist'] = 1 if g(d, 'fall') else 0
         e['RemoveBleeding'] = 1 if g(d, 'hbl') else 0
         e['RemoveBrokenLegs'] = 1 if g(d, 'hbr') else 0
