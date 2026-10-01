@@ -9563,7 +9563,7 @@
             "customEffects": {}
         },
         "ON_Art_Zavtrak_Turista": {
-            "Description": "Завтрак туриста | [+] Регенерация HP: +7/тик [+] Еда: +40/тик [+] Вода: +40/тик [-] Выносливость: -20 [-] Радиация (накопление): +35/тик [+] Скорость: +10 [-] Кровотечение: шанс/тик",
+            "Description": "Завтрак туриста | [+] Регенерация HP: +7/тик [+] Еда: +40/тик [+] Вода: +40/тик [-] Выносливость: -20 [-] Радиация (накопление): +35/тик [+] Скорость: +10",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -9580,7 +9580,7 @@
             "addHP": 7,
             "addBlood": 0,
             "addShock": 0,
-            "addBleedigSource": 1.0,
+            "addBleedigSource": 0.0,
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 1,

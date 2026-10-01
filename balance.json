@@ -778,7 +778,7 @@
    "st": -5,
    "tox": 5,
    "mb": 10,
-   "bleed": 1,
+   "bleed": 0,
    "fall": 1
   },
   "ON_Art_Zhidkiy_Kamen": {

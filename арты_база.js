@@ -1996,7 +1996,7 @@ window.ART_DB = {
   "an": 0,
   "hbl": 0,
   "hbr": 0,
-  "bleed": 1,
+  "bleed": 0,
   "brok": 0,
   "fall": 1,
   "punch": 0,
