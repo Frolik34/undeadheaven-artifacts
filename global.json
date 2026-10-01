@@ -129,7 +129,7 @@
             "customEffects": {}
         },
         "ON_Art_Alpha_Dead": {
-            "Description": "Мёртвый Альфа-артефакт | [+] Регенерация HP: +11/тик [-] Выносливость: -4 [+] Радиация (вывод): -49/тик [+] Скорость: +2",
+            "Description": "Мёртвый Альфа-артефакт | [+] Регенерация HP: +11/тик [-] Выносливость: -4 [+] Радиация (вывод): -49/тик [+] Скорость: +1",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -150,7 +150,7 @@
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 0,
-            "moveBoost": 20.0,
+            "moveBoost": 10.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -1083,7 +1083,7 @@
             "customEffects": {}
         },
         "ON_Art_Devils_Mushroom": {
-            "Description": "Чёртов гриб | [+] Выносливость: +4 [+] Скорость: +2",
+            "Description": "Чёртов гриб | [+] Выносливость: +4 [+] Скорость: +1",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -1104,7 +1104,7 @@
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 0,
-            "moveBoost": 20.0,
+            "moveBoost": 10.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -1507,7 +1507,7 @@
             "customEffects": {}
         },
         "ON_Art_Fireball": {
-            "Description": "Огненный шар | [-] Кровь: -16/тик [+] Еда: +5/тик [-] Выносливость: -8 [+] Радиация (вывод): -28/тик [+] Скорость: +3",
+            "Description": "Огненный шар | [-] Кровь: -16/тик [+] Еда: +5/тик [-] Выносливость: -8 [+] Радиация (вывод): -28/тик [+] Скорость: +2",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -1528,7 +1528,7 @@
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 0,
-            "moveBoost": 30.0,
+            "moveBoost": 20.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -1719,7 +1719,7 @@
             "customEffects": {}
         },
         "ON_Art_Flytrap": {
-            "Description": "Мухоловка | [+] Кровь: +32/тик [+] Стойкость: +16/тик [-] Выносливость: -8 [-] Радиация (накопление): +21/тик [+] Скорость: +3 [-] Кровотечение: шанс/тик",
+            "Description": "Мухоловка | [+] Кровь: +32/тик [+] Стойкость: +16/тик [-] Выносливость: -8 [-] Радиация (накопление): +21/тик [+] Скорость: +2 [-] Кровотечение: шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -1740,7 +1740,7 @@
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 0,
-            "moveBoost": 30.0,
+            "moveBoost": 20.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -2037,7 +2037,7 @@
             "customEffects": {}
         },
         "ON_Art_Goldfish": {
-            "Description": "Золотая рыбка | [+] Еда: +30/тик [+] Вода: +35/тик [-] Радиация (накопление): +21/тик [-] Скорость: -4 [-] Перелом ноги: 20 шанс/тик",
+            "Description": "Золотая рыбка | [+] Еда: +30/тик [+] Вода: +35/тик [-] Радиация (накопление): +21/тик [-] Скорость: -2 [-] Перелом ноги: 20 шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -2058,7 +2058,7 @@
             "brokingLegs": 1,
             "jumpBust": 0.0,
             "fallDamageResist": 0,
-            "moveBoost": -40.0,
+            "moveBoost": -20.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -3733,7 +3733,7 @@
             "customEffects": {}
         },
         "ON_Art_Plazma": {
-            "Description": "Плазма | [+] Стойкость: +32/тик [+] Выносливость: +36 [+] Радиация (вывод): -28/тик [+] Скорость: +10 [+] Защита от пуль: +5",
+            "Description": "Плазма | [+] Стойкость: +32/тик [+] Выносливость: +36 [+] Радиация (вывод): -28/тик [+] Скорость: +5 [+] Защита от пуль: +5",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -3754,7 +3754,7 @@
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 1,
-            "moveBoost": 100.0,
+            "moveBoost": 50.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -3945,7 +3945,7 @@
             "customEffects": {}
         },
         "ON_Art_Rog": {
-            "Description": "Рог | [+] Регенерация HP: +8/тик [+] Вода: +25/тик [+] Выносливость: +48 [-] Радиация (накопление): +21/тик [-] Скорость: -6 [-] Защита от пуль: -3",
+            "Description": "Рог | [+] Регенерация HP: +8/тик [+] Вода: +25/тик [+] Выносливость: +48 [-] Радиация (накопление): +21/тик [-] Скорость: -3 [-] Защита от пуль: -3",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -3966,7 +3966,7 @@
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 0,
-            "moveBoost": -60.0,
+            "moveBoost": -30.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -4157,7 +4157,7 @@
             "customEffects": {}
         },
         "ON_Art_Sapfir": {
-            "Description": "Сапфир | [-] Регенерация HP: -3/тик [+] Кровь: +56/тик [-] Вода: -5/тик [+] Радиация (вывод): -56/тик [+] Скорость: +3",
+            "Description": "Сапфир | [-] Регенерация HP: -3/тик [+] Кровь: +56/тик [-] Вода: -5/тик [+] Радиация (вывод): -56/тик [+] Скорость: +2",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -4178,7 +4178,7 @@
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 0,
-            "moveBoost": 30.0,
+            "moveBoost": 20.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -4263,7 +4263,7 @@
             "customEffects": {}
         },
         "ON_Art_Shell": {
-            "Description": "Скорлупа | [-] Еда: -10/тик [-] Радиация (накопление): +28/тик [+] Скорость: +10 [+] Защита от пуль: +8 [+] Защита от ударов: +10 [+] Лечение кровотечения",
+            "Description": "Скорлупа | [-] Еда: -10/тик [-] Радиация (накопление): +28/тик [+] Скорость: +5 [+] Защита от пуль: +8 [+] Защита от ударов: +10 [+] Лечение кровотечения",
             "Enabled": 1,
             "RemoveBleeding": 1,
             "RemoveBrokenLegs": 0,
@@ -4284,7 +4284,7 @@
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 1,
-            "moveBoost": 100.0,
+            "moveBoost": 50.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -4899,7 +4899,7 @@
             "customEffects": {}
         },
         "ON_Art_Snot": {
-            "Description": "Сопля | [+] Регенерация HP: +9/тик [-] Выносливость: -8 [-] Радиация (накопление): +21/тик [+] Прыжок: +7 [-] Скорость: -4 [+] Лечение кровотечения",
+            "Description": "Сопля | [+] Регенерация HP: +9/тик [-] Выносливость: -8 [-] Радиация (накопление): +21/тик [+] Прыжок: +7 [-] Скорость: -2 [+] Лечение кровотечения",
             "Enabled": 1,
             "RemoveBleeding": 1,
             "RemoveBrokenLegs": 0,
@@ -4920,7 +4920,7 @@
             "brokingLegs": 0,
             "jumpBust": 315.0,
             "fallDamageResist": 1,
-            "moveBoost": -40.0,
+            "moveBoost": -20.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -5323,7 +5323,7 @@
             "customEffects": {}
         },
         "ON_Art_Urok_Truda": {
-            "Description": "Урок труда | [-] Кровь: -36/тик [+] Выносливость: +40 [+] Радиация (вывод): -63/тик [+] Скорость: +12 [-] Защита от пуль: -2 [-] Перелом ноги: 20 шанс/тик",
+            "Description": "Урок труда | [-] Кровь: -36/тик [+] Выносливость: +40 [+] Радиация (вывод): -63/тик [+] Скорость: +6 [-] Защита от пуль: -2 [-] Перелом ноги: 20 шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -5344,7 +5344,7 @@
             "brokingLegs": 1,
             "jumpBust": 0.0,
             "fallDamageResist": 1,
-            "moveBoost": 120.0,
+            "moveBoost": 60.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -5747,7 +5747,7 @@
             "customEffects": {}
         },
         "ON_Art_Zavtrak_Turista": {
-            "Description": "Завтрак туриста | [+] Регенерация HP: +7/тик [+] Еда: +40/тик [+] Вода: +40/тик [-] Выносливость: -20 [-] Радиация (накопление): +35/тик [+] Скорость: +10",
+            "Description": "Завтрак туриста | [+] Регенерация HP: +7/тик [+] Еда: +40/тик [+] Вода: +40/тик [-] Выносливость: -20 [-] Радиация (накопление): +35/тик [+] Скорость: +5",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -5768,7 +5768,7 @@
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 1,
-            "moveBoost": 100.0,
+            "moveBoost": 50.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -5853,7 +5853,7 @@
             "customEffects": {}
         },
         "ON_Art_Zhidkiy_Kamen": {
-            "Description": "Жидкий камень | [+] Радиация (вывод): -28/тик [+] Скорость: +4 [+] Защита от аномалий: +15 [+] Лечение кровотечения [-] Перелом ноги: 20 шанс/тик",
+            "Description": "Жидкий камень | [+] Радиация (вывод): -28/тик [+] Скорость: +2 [+] Защита от аномалий: +15 [+] Лечение кровотечения [-] Перелом ноги: 20 шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 1,
             "RemoveBrokenLegs": 0,
@@ -5874,7 +5874,7 @@
             "brokingLegs": 1,
             "jumpBust": 0.0,
             "fallDamageResist": 0,
-            "moveBoost": 40.0,
+            "moveBoost": 20.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 70.0,
                 "ANIMAL_BASE": 70.0,

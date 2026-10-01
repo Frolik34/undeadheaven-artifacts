@@ -26,7 +26,7 @@
    "sh": 0,
    "st": -1,
    "tox": -7,
-   "mb": 2
+   "mb": 1
   },
   "MF_Artefact_Chelust": {
    "hp": 9,
@@ -68,7 +68,7 @@
    "en": 0,
    "st": 1,
    "tox": 0,
-   "mb": 2,
+   "mb": 1,
    "bleed": 0,
    "brok": 0,
    "clean": 1
@@ -148,7 +148,7 @@
    "st": 9,
    "wa": 0,
    "tox": -4,
-   "mb": 10,
+   "mb": 5,
    "fa": 5,
    "an": 0,
    "fall": 1,
@@ -295,7 +295,7 @@
    "wa": 5,
    "st": 12,
    "tox": 3,
-   "mb": -6,
+   "mb": -3,
    "fa": -3
   },
   "MF_Artefact_Blood": {
@@ -478,7 +478,7 @@
    "en": 6,
    "wa": 7,
    "tox": 3,
-   "mb": -4,
+   "mb": -2,
    "brok": 20
   },
   "MF_Artefact_Plamya": {
@@ -503,7 +503,7 @@
    "en": 1,
    "st": -2,
    "tox": -4,
-   "mb": 3
+   "mb": 2
   },
   "MF_Artefact_Puzir": {
    "bl": 6,
@@ -567,7 +567,7 @@
    "en": 0,
    "wa": -1,
    "tox": -8,
-   "mb": 3
+   "mb": 2
   },
   "ON_Art_Arfa": {
    "hp": -5,
@@ -620,7 +620,7 @@
    "sh": 2,
    "st": -2,
    "tox": 3,
-   "mb": 3,
+   "mb": 2,
    "bleed": 1
   },
   "ON_Art_Galka": {
@@ -707,7 +707,7 @@
    "en": -2,
    "st": 0,
    "tox": 4,
-   "mb": 10,
+   "mb": 5,
    "cc": 10,
    "fa": 8,
    "hbl": 1,
@@ -735,7 +735,7 @@
    "st": -2,
    "tox": 3,
    "jb": 7,
-   "mb": -4,
+   "mb": -2,
    "hbl": 1,
    "fall": 1
   },
@@ -752,7 +752,7 @@
    "bl": -9,
    "st": 10,
    "tox": -9,
-   "mb": 12,
+   "mb": 6,
    "fa": -2,
    "brok": 20,
    "fall": 1
@@ -780,14 +780,14 @@
    "wa": 8,
    "st": -5,
    "tox": 5,
-   "mb": 10,
+   "mb": 5,
    "bleed": 0,
    "fall": 1
   },
   "ON_Art_Zhidkiy_Kamen": {
    "sh": 0,
    "tox": -4,
-   "mb": 4,
+   "mb": 2,
    "an": 15,
    "hbl": 1,
    "brok": 20,
