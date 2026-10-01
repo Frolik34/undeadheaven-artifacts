@@ -462,8 +462,8 @@
 
 <div class="toast" id="toast"></div>
 
-<script src="арты_база.js"></script>
-<script src="арты_иконки.js"></script>
+<script src="арты_база.js?v=7"></script>
+<script src="арты_иконки.js?v=7"></script>
 <script>
 'use strict';
 
@@ -743,7 +743,11 @@ function saveBuild() {
 function loadBuild(name) {
     const b = builds()[name];
     if (!b) return;
-    sel = { ...b.sel };
+    sel = {};
+    let tot = 0;
+    for (const [id, q] of Object.entries(b.sel || {})) {
+        if (DB[id] && q > 0 && tot < MAX_SLOTS) { sel[id] = q; tot += q; }
+    }
     update();
     toast('Загружена сборка «' + name + '»');
 }
