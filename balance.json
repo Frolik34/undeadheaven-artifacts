@@ -10,7 +10,7 @@
       "tox": -5,
       "brok": 0,
       "bleed": 0,
-      "clean": 1
+      "clean": 3
     },
     "MF_Artefact_Dusha": {
       "hp": 12,
@@ -38,7 +38,7 @@
       "cc": 0,
       "bleed": 0,
       "brok": 0,
-      "clean": 1
+      "clean": 3
     },
     "MF_Artefact_myso": {
       "hp": 9,
@@ -71,7 +71,7 @@
       "mb": 2,
       "bleed": 0,
       "brok": 0,
-      "clean": 3
+      "clean": 1
     },
     "MF_Artefact_Black_Angel": {
       "bl": 23,
@@ -141,7 +141,7 @@
       "fall": 1,
       "bleed": 0,
       "brok": 0,
-      "clean": 1
+      "clean": 3
     },
     "ON_Art_Plazma": {
       "sh": 4,
@@ -216,7 +216,7 @@
       "punch": 1,
       "bleed": 0,
       "brok": 0,
-      "clean": 1
+      "clean": 3
     },
     "ON_Art_Thron": {
       "hp": -3,
@@ -585,7 +585,7 @@
       "hbl": 1,
       "bleed": 0,
       "brok": 0,
-      "clean": 3
+      "clean": 1
     },
     "ON_Art_Bitiy_Kamen": {
       "bl": 0,
@@ -669,7 +669,7 @@
       "hbr": 1,
       "bleed": 0,
       "brok": 0,
-      "clean": 3
+      "clean": 1
     },
     "ON_Art_Myas_Zapal": {
       "bl": 30,
@@ -725,7 +725,7 @@
       "tox": -2,
       "bleed": 0,
       "brok": 0,
-      "clean": 3
+      "clean": 1
     },
     "ON_Art_Snot": {
       "hp": 10,

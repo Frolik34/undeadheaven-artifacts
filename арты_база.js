@@ -20,7 +20,7 @@ window.ART_DB = {
   "brok": 0,
   "fall": 0,
   "punch": 0,
-  "clean": 1
+  "clean": 3
  },
  "ON_Art_Alpha_Dead": {
   "name": "Мёртвый Альфа-артефакт",
@@ -64,7 +64,7 @@ window.ART_DB = {
   "brok": 0,
   "fall": 0,
   "punch": 0,
-  "clean": 1
+  "clean": 3
  },
  "MF_Artefact_Bat": {
   "name": "Чёртов гриб",
@@ -174,7 +174,7 @@ window.ART_DB = {
   "brok": 0,
   "fall": 1,
   "punch": 0,
-  "clean": 1
+  "clean": 3
  },
  "MF_Artefact_Gimlet": {
   "name": "Странный болт",
@@ -262,7 +262,7 @@ window.ART_DB = {
   "brok": 0,
   "fall": 0,
   "punch": 1,
-  "clean": 1
+  "clean": 3
  },
  "MF_Artefact_Phantom": {
   "name": "Вспышка",
@@ -900,7 +900,7 @@ window.ART_DB = {
   "brok": 0,
   "fall": 0,
   "punch": 0,
-  "clean": 3
+  "clean": 1
  },
  "ON_Art_Bitiy_Kamen": {
   "name": "Битый камень",
@@ -1032,7 +1032,7 @@ window.ART_DB = {
   "brok": 0,
   "fall": 0,
   "punch": 0,
-  "clean": 3
+  "clean": 1
  },
  "ON_Art_Dziga": {
   "name": "Вертушка",
@@ -1494,7 +1494,7 @@ window.ART_DB = {
   "brok": 0,
   "fall": 0,
   "punch": 0,
-  "clean": 3
+  "clean": 1
  },
  "ON_Art_Morskaya_Zvezda": {
   "name": "Морская звезда",
@@ -1802,7 +1802,7 @@ window.ART_DB = {
   "brok": 0,
   "fall": 0,
   "punch": 0,
-  "clean": 3
+  "clean": 1
  },
  "ON_Art_Snot": {
   "name": "Сопля",
