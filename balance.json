@@ -26,7 +26,7 @@
    "sh": 0,
    "st": -1,
    "tox": -7,
-   "mb": 1
+   "mb": 0
   },
   "MF_Artefact_Chelust": {
    "hp": 9,
@@ -68,7 +68,7 @@
    "en": 0,
    "st": 1,
    "tox": 0,
-   "mb": 1,
+   "mb": 0,
    "bleed": 0,
    "brok": 0,
    "clean": 1
@@ -111,7 +111,7 @@
    "wa": 0,
    "st": 6,
    "tox": 0,
-   "jb": 5,
+   "jb": 1,
    "bleed": 0,
    "brok": 0,
    "clean": 2
@@ -148,7 +148,7 @@
    "st": 9,
    "wa": 0,
    "tox": -4,
-   "mb": 5,
+   "mb": 0,
    "fa": 5,
    "an": 0,
    "fall": 1,
@@ -169,7 +169,7 @@
    "sh": 4,
    "wa": 7,
    "tox": 4,
-   "jb": 6,
+   "jb": 1,
    "an": -3,
    "brok": 25,
    "fall": 1
@@ -258,7 +258,7 @@
    "bl": 0,
    "sh": 2,
    "wa": -2,
-   "jb": 4,
+   "jb": 1,
    "an": -2,
    "hbr": 1
   },
@@ -277,7 +277,7 @@
    "wa": 0,
    "st": 3,
    "tox": 2,
-   "jb": 5,
+   "jb": 1,
    "bleed": 1
   },
   "MF_Artefact_SkullMiser": {
@@ -295,7 +295,7 @@
    "wa": 5,
    "st": 12,
    "tox": 3,
-   "mb": -3,
+   "mb": 0,
    "fa": -3
   },
   "MF_Artefact_Blood": {
@@ -353,7 +353,7 @@
    "sh": 0,
    "en": 0,
    "tox": -8,
-   "jb": 6,
+   "jb": 1,
    "fa": -1,
    "hbl": 1,
    "fall": 1
@@ -400,7 +400,7 @@
    "wa": 5,
    "st": 5,
    "tox": 2,
-   "mb": -1
+   "mb": 0
   },
   "MF_Artefact_Pusto": {
    "bl": 4,
@@ -443,7 +443,7 @@
    "wa": -2,
    "st": -2,
    "tox": -9,
-   "jb": 5,
+   "jb": 1,
    "bleed": 1
   },
   "MF_Artefact_Gravi": {
@@ -478,7 +478,7 @@
    "en": 6,
    "wa": 7,
    "tox": 3,
-   "mb": -2,
+   "mb": 0,
    "brok": 20
   },
   "MF_Artefact_Plamya": {
@@ -503,7 +503,7 @@
    "en": 1,
    "st": -2,
    "tox": -4,
-   "mb": 2
+   "mb": 0
   },
   "MF_Artefact_Puzir": {
    "bl": 6,
@@ -567,7 +567,7 @@
    "en": 0,
    "wa": -1,
    "tox": -8,
-   "mb": 2
+   "mb": 0
   },
   "ON_Art_Arfa": {
    "hp": -5,
@@ -620,7 +620,7 @@
    "sh": 2,
    "st": -2,
    "tox": 3,
-   "mb": 2,
+   "mb": 0,
    "bleed": 1
   },
   "ON_Art_Galka": {
@@ -629,14 +629,14 @@
    "wa": 5,
    "st": 4,
    "tox": 2,
-   "jb": 5
+   "jb": 1
   },
   "ON_Art_Greben": {
    "bl": -3,
    "en": 2,
    "wa": 2,
    "tox": 1,
-   "mb": -1
+   "mb": 0
   },
   "ON_Art_Jumper": {
    "hp": 2,
@@ -656,7 +656,7 @@
    "sh": 3,
    "en": -2,
    "tox": -9,
-   "mb": -1,
+   "mb": 0,
    "cc": 7,
    "fa": 4,
    "punch": 1
@@ -689,7 +689,7 @@
    "en": -2,
    "wa": -2,
    "tox": -9,
-   "jb": 7,
+   "jb": 1,
    "bleed": 1,
    "fall": 1
   },
@@ -698,7 +698,7 @@
    "st": 5,
    "wa": 0,
    "tox": 4,
-   "jb": 7,
+   "jb": 1,
    "cc": 6,
    "fa": 6,
    "fall": 1
@@ -707,7 +707,7 @@
    "en": -2,
    "st": 0,
    "tox": 4,
-   "mb": 5,
+   "mb": 0,
    "cc": 10,
    "fa": 8,
    "hbl": 1,
@@ -734,8 +734,8 @@
    "hp": 9,
    "st": -2,
    "tox": 3,
-   "jb": 7,
-   "mb": -2,
+   "jb": 1,
+   "mb": 0,
    "hbl": 1,
    "fall": 1
   },
@@ -752,7 +752,7 @@
    "bl": -9,
    "st": 10,
    "tox": -9,
-   "mb": 6,
+   "mb": 0,
    "fa": -2,
    "brok": 20,
    "fall": 1
@@ -780,14 +780,14 @@
    "wa": 8,
    "st": -5,
    "tox": 5,
-   "mb": 5,
+   "mb": 0,
    "bleed": 0,
    "fall": 1
   },
   "ON_Art_Zhidkiy_Kamen": {
    "sh": 0,
    "tox": -4,
-   "mb": 2,
+   "mb": 0,
    "an": 15,
    "hbl": 1,
    "brok": 20,
