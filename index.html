@@ -374,6 +374,8 @@
                 <button class="chip" data-f="rad">☢️ Вывод радиации</button>
                 <button class="chip" data-f="def">🛡️ Защита</button>
                 <button class="chip" data-f="mob">💨 Мобильность</button>
+                <button class="chip" data-f="hbr">🦵 Лечение перелома</button>
+                <button class="chip" data-f="hbl">🩹 Лечение кровотечения</button>
             </div>
             <div class="artifact-grid" id="artifactList"></div>
         </div>
@@ -488,6 +490,8 @@ function inFilter(a) {
         case 'rad':  return a.tox < 0;
         case 'def':  return a.fa > 0 || a.cc > 0 || a.an > 0;
         case 'mob':  return a.jb > 0 || a.mb > 0 || a.st > 0;
+        case 'hbr':  return a.hbr > 0;
+        case 'hbl':  return a.hbl > 0;
         default: return true;
     }
 }
