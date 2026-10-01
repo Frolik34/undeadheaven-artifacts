@@ -181,6 +181,17 @@
         box-shadow: inset 0 0 14px rgba(142,230,63,.08);
     }
 
+    .artifact-item { display: flex; gap: 10px; align-items: flex-start; }
+    .art-icon {
+        width: 56px; height: 56px; object-fit: cover; flex-shrink: 0;
+        border: 1px solid #454a30; background: #0a0b08;
+        box-shadow: inset 0 0 8px rgba(0,0,0,.8), 0 2px 6px rgba(0,0,0,.5);
+        filter: saturate(.92);
+    }
+    .artifact-item:hover .art-icon { border-color: #7a815a; }
+    .artifact-item.selected .art-icon { border-color: var(--green); box-shadow: 0 0 10px rgba(142,230,63,.25); }
+    .artifact-body { flex: 1; min-width: 0; }
+
     .artifact-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
     .artifact-name { font-weight: bold; color: #e6e2d8; font-size: .95em; }
     .clean-badge {
@@ -226,6 +237,10 @@
         box-shadow: 0 0 8px rgba(142,230,63,.35);
     }
     .belt-info { flex: 1; min-width: 0; }
+    .belt-icon {
+        width: 34px; height: 34px; object-fit: cover; flex-shrink: 0;
+        border: 1px solid #454a30; background: #0a0b08;
+    }
     .belt-name { font-size: .85em; color: #e6e2d8; font-weight: bold; }
     .belt-class { font-size: .65em; color: var(--faint); }
     .belt-btns { display: flex; gap: 4px; }
@@ -436,6 +451,7 @@
 <div class="toast" id="toast"></div>
 
 <script src="арты_база.js"></script>
+<script src="арты_иконки.js"></script>
 <script>
 'use strict';
 
@@ -516,13 +532,21 @@ function cardHTML(id) {
         flags += `<span class="${FLAGS[k].good ? 'flag-good' : 'flag-bad'}" title="${FLAGS[k].n}${k === 'brok' ? ': ' + a.brok : ''}">${FLAGS[k].i}</span>`;
     }
     return `
+        <img class="art-icon" src="${iconSrc(id)}" alt="" loading="lazy" onerror="this.style.display='none'">
+        <div class="artifact-body">
         <div class="artifact-head">
             <span class="artifact-name">${esc(a.name)}</span>
             ${a.clean ? `<span class="clean-badge" title="Чистый арт: без минусов, тир ${a.clean}">⭐ Т${a.clean}</span>` : ''}
             <span class="artifact-class">${esc(id)}</span>
         </div>
         <div class="stat-chips">${chips}</div>
-        ${flags ? `<div class="flag-icons">${flags}</div>` : ''}`;
+        ${flags ? `<div class="flag-icons">${flags}</div>` : ''}
+        </div>`;
+}
+
+function iconSrc(id) {
+    const p = window.ART_ICONS && window.ART_ICONS[id];
+    return p ? encodeURI(p) : '';
 }
 
 function renderCatalog() {
@@ -571,6 +595,7 @@ function renderBelt() {
     }
     box.innerHTML = ids.map(id => `
         <div class="belt-row">
+            <img class="belt-icon" src="${iconSrc(id)}" alt="" onerror="this.style.display='none'">
             <span class="qty">${sel[id]}</span>
             <div class="belt-info">
                 <div class="belt-name">${esc(DB[id].name)}</div>

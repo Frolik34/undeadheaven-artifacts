@@ -129,7 +129,7 @@
             "customEffects": {}
         },
         "ON_Art_Alpha_Dead": {
-            "Description": "Мёртвый Альфа-артефакт | [+] Регенерация HP: +10/тик [-] Стойкость: -8/тик [-] Выносливость: -8 [+] Радиация (вывод): -42/тик [+] Скорость: +2",
+            "Description": "Мёртвый Альфа-артефакт | [+] Регенерация HP: +11/тик [-] Выносливость: -4 [+] Радиация (вывод): -49/тик [+] Скорость: +2",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -143,9 +143,9 @@
             "stackNegativeLimit": -1,
             "usingEnergy": 0.0,
             "usingHP": 0.0,
-            "addHP": 10,
+            "addHP": 11,
             "addBlood": 0,
-            "addShock": -1,
+            "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
             "jumpBust": 0.0,
@@ -202,7 +202,7 @@
                 {
                     "id": -1,
                     "name": "STAMINA",
-                    "value": -2.0,
+                    "value": -1.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -220,7 +220,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -6.0,
+                    "value": -7.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -447,7 +447,7 @@
             "customEffects": {}
         },
         "MF_Artefact_Black_Angel": {
-            "Description": "Сердце Чернобыля | [+] Кровь: +92/тик [+] Стойкость: +32/тик [-] Вода: -10/тик [-] Радиация (накопление): +14/тик",
+            "Description": "Сердце Чернобыля | [+] Кровь: +80/тик [+] Стойкость: +24/тик [-] Вода: -10/тик [-] Радиация (накопление): +21/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -462,8 +462,8 @@
             "usingEnergy": 0.0,
             "usingHP": 0.0,
             "addHP": 0,
-            "addBlood": 23,
-            "addShock": 4,
+            "addBlood": 20,
+            "addShock": 3,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
             "jumpBust": 0.0,
@@ -538,7 +538,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 2.0,
+                    "value": 3.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -553,7 +553,7 @@
             "customEffects": {}
         },
         "MF_Artefact_Yacheika": {
-            "Description": "Гиперкуб | [+] Стойкость: +24/тик [-] Вода: -10/тик [+] Выносливость: +32 [-] Радиация (накопление): +21/тик [+] Прыжок: +5",
+            "Description": "Гиперкуб | [+] Стойкость: +24/тик [-] Вода: -10/тик [+] Выносливость: +28 [-] Радиация (накопление): +28/тик [+] Прыжок: +5",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -626,7 +626,7 @@
                 {
                     "id": -1,
                     "name": "STAMINA",
-                    "value": 8.0,
+                    "value": 7.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -644,7 +644,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 3.0,
+                    "value": 4.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -871,7 +871,7 @@
             "customEffects": {}
         },
         "MF_Artefact_Gimlet": {
-            "Description": "Странный болт | [+] Стойкость: +32/тик [+] Вода: +45/тик [-] Радиация (накопление): +21/тик [+] Прыжок: +6 [-] Защита от аномалий: -3 [-] Перелом ноги: 25 шанс/тик",
+            "Description": "Странный болт | [+] Стойкость: +32/тик [+] Вода: +40/тик [-] Радиация (накопление): +28/тик [+] Прыжок: +6 [-] Защита от аномалий: -3 [-] Перелом ноги: 25 шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -932,7 +932,7 @@
                 {
                     "id": -1,
                     "name": "WATER",
-                    "value": 9.0,
+                    "value": 8.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -962,7 +962,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 3.0,
+                    "value": 4.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -977,7 +977,7 @@
             "customEffects": {}
         },
         "MF_Artefact_Lighthouse": {
-            "Description": "Фонарь | [-] Регенерация HP: -3/тик [+] Кровь: +36/тик [-] Стойкость: -8/тик [+] Радиация (вывод): -21/тик [+] Лечение перелома",
+            "Description": "Фонарь | [-] Регенерация HP: -2/тик [+] Кровь: +44/тик [+] Радиация (вывод): -35/тик [+] Лечение перелома",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 1,
@@ -991,9 +991,9 @@
             "stackNegativeLimit": -1,
             "usingEnergy": 0.0,
             "usingHP": 0.0,
-            "addHP": -3,
-            "addBlood": 9,
-            "addShock": -1,
+            "addHP": -2,
+            "addBlood": 11,
+            "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
             "jumpBust": 0.0,
@@ -1068,7 +1068,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -3.0,
+                    "value": -5.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -1083,7 +1083,7 @@
             "customEffects": {}
         },
         "MF_Artefact_Medallion": {
-            "Description": "Корона | [-] Кровь: -20/тик [+] Стойкость: +16/тик [-] Еда: -5/тик [+] Вода: +5/тик [+] Радиация (вывод): -28/тик [-] Скорость: -1",
+            "Description": "Корона | [-] Кровь: -8/тик [+] Стойкость: +24/тик [+] Вода: +10/тик [+] Радиация (вывод): -42/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -1098,13 +1098,13 @@
             "usingEnergy": 0.0,
             "usingHP": 0.0,
             "addHP": 0,
-            "addBlood": -5,
-            "addShock": 2,
+            "addBlood": -2,
+            "addShock": 3,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 0,
-            "moveBoost": -10.0,
+            "moveBoost": 0.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -1138,13 +1138,13 @@
                 {
                     "id": -1,
                     "name": "ENERGY",
-                    "value": -1.0,
-                    "isNegativeEffect": 1
+                    "value": 0.0,
+                    "isNegativeEffect": 0
                 },
                 {
                     "id": -1,
                     "name": "WATER",
-                    "value": 1.0,
+                    "value": 2.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -1174,7 +1174,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -4.0,
+                    "value": -6.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -1401,7 +1401,7 @@
             "customEffects": {}
         },
         "MF_Artefact_Medusa": {
-            "Description": "Компас | [+] Регенерация HP: +6/тик [-] Еда: -10/тик [+] Выносливость: +24 [-] Радиация (накопление): +7/тик [+] Прыжок: +5 [-] Кровотечение: шанс/тик",
+            "Description": "Компас | [+] Регенерация HP: +6/тик [-] Еда: -10/тик [+] Выносливость: +20 [-] Радиация (накопление): +14/тик [+] Прыжок: +5 [-] Кровотечение: шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -1474,7 +1474,7 @@
                 {
                     "id": -1,
                     "name": "STAMINA",
-                    "value": 6.0,
+                    "value": 5.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -1492,7 +1492,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 1.0,
+                    "value": 2.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -1507,7 +1507,7 @@
             "customEffects": {}
         },
         "MF_Artefact_SkullMiser": {
-            "Description": "Рог | [+] Регенерация HP: +8/тик [+] Вода: +25/тик [+] Выносливость: +56 [-] Радиация (накопление): +21/тик [-] Скорость: -6 [-] Защита от пуль: -3",
+            "Description": "Рог | [+] Регенерация HP: +8/тик [+] Вода: +25/тик [+] Выносливость: +48 [-] Радиация (накопление): +28/тик [-] Скорость: -6 [-] Защита от пуль: -3",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -1580,7 +1580,7 @@
                 {
                     "id": -1,
                     "name": "STAMINA",
-                    "value": 14.0,
+                    "value": 12.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -1598,7 +1598,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 3.0,
+                    "value": 4.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -1719,7 +1719,7 @@
             "customEffects": {}
         },
         "MF_Artefact_Kristall": {
-            "Description": "Кристалл | [+] Стойкость: +24/тик [-] Вода: -10/тик [-] Радиация (накопление): +14/тик [+] Защита от пуль: +6 [+] Защита от ударов: +6 [+] Лечение перелома",
+            "Description": "Кристалл | [+] Стойкость: +24/тик [-] Вода: -10/тик [-] Радиация (накопление): +21/тик [+] Защита от пуль: +6 [+] Защита от ударов: +6 [+] Лечение перелома",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 1,
@@ -1810,7 +1810,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 2.0,
+                    "value": 3.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -1825,7 +1825,7 @@
             "customEffects": {}
         },
         "MF_Artefact_StoneFlower": {
-            "Description": "Странный цветок | [-] Стойкость: -8/тик [+] Радиация (вывод): -42/тик [+] Прыжок: +7 [-] Защита от пуль: -2 [+] Лечение кровотечения",
+            "Description": "Странный цветок | [+] Радиация (вывод): -56/тик [+] Прыжок: +8 [-] Защита от пуль: -1 [+] Лечение кровотечения",
             "Enabled": 1,
             "RemoveBleeding": 1,
             "RemoveBrokenLegs": 0,
@@ -1841,10 +1841,10 @@
             "usingHP": 0.0,
             "addHP": 0,
             "addBlood": 0,
-            "addShock": -1,
+            "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
-            "jumpBust": 315.0,
+            "jumpBust": 360.0,
             "fallDamageResist": 1,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -1853,7 +1853,7 @@
                 "PLAYER_BASE": 0.0
             },
             "damageReduction": {
-                "FIRE_ARM": -2.0,
+                "FIRE_ARM": -1.0,
                 "STUN": 0.0,
                 "CLOSE_COMBAT": 0.0,
                 "EXPLOSION": 0.0
@@ -1916,7 +1916,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -6.0,
+                    "value": -8.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -2355,7 +2355,7 @@
             "customEffects": {}
         },
         "MF_Artefact_Dusha": {
-            "Description": "Мёртвый Альфа-артефакт | [+] Регенерация HP: +12/тик [-] Стойкость: -8/тик [-] Выносливость: -8 [+] Радиация (вывод): -42/тик [+] Скорость: +2",
+            "Description": "Мёртвый Альфа-артефакт | [+] Регенерация HP: +13/тик [-] Выносливость: -4 [+] Радиация (вывод): -49/тик [+] Скорость: +2",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -2369,9 +2369,9 @@
             "stackNegativeLimit": -1,
             "usingEnergy": 0.0,
             "usingHP": 0.0,
-            "addHP": 12,
+            "addHP": 13,
             "addBlood": 0,
-            "addShock": -1,
+            "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
             "jumpBust": 0.0,
@@ -2428,7 +2428,7 @@
                 {
                     "id": -1,
                     "name": "STAMINA",
-                    "value": -2.0,
+                    "value": -1.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -2446,7 +2446,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -6.0,
+                    "value": -7.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -2461,7 +2461,7 @@
             "customEffects": {}
         },
         "MF_Artefact_Glaz": {
-            "Description": "Грозовая ягода | [+] Стойкость: +32/тик [-] Вода: -15/тик [-] Выносливость: -12 [+] Радиация (вывод): -49/тик [+] Прыжок: +5 [-] Кровотечение: шанс/тик",
+            "Description": "Грозовая ягода | [+] Стойкость: +40/тик [-] Вода: -10/тик [-] Выносливость: -8 [+] Радиация (вывод): -63/тик [+] Прыжок: +5 [-] Кровотечение: шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -2477,7 +2477,7 @@
             "usingHP": 0.0,
             "addHP": 0,
             "addBlood": 0,
-            "addShock": 4,
+            "addShock": 5,
             "addBleedigSource": 1.0,
             "brokingLegs": 0,
             "jumpBust": 225.0,
@@ -2522,7 +2522,7 @@
                 {
                     "id": -1,
                     "name": "WATER",
-                    "value": -3.0,
+                    "value": -2.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -2534,7 +2534,7 @@
                 {
                     "id": -1,
                     "name": "STAMINA",
-                    "value": -3.0,
+                    "value": -2.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -2552,7 +2552,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -7.0,
+                    "value": -9.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -3521,7 +3521,7 @@
             "customEffects": {}
         },
         "MF_Artefact_snejinka": {
-            "Description": "Слизь | [+] Стойкость: +16/тик [+] Вода: +40/тик [+] Радиация (вывод): -35/тик [-] Защита от ударов: -5 [-] Защита от аномалий: -5 [+] Лечение перелома",
+            "Description": "Слизь | [+] Стойкость: +24/тик [+] Вода: +45/тик [+] Радиация (вывод): -49/тик [-] Защита от ударов: -3 [-] Защита от аномалий: -3 [+] Лечение перелома",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 1,
@@ -3537,7 +3537,7 @@
             "usingHP": 0.0,
             "addHP": 0,
             "addBlood": 0,
-            "addShock": 2,
+            "addShock": 3,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
             "jumpBust": 0.0,
@@ -3550,9 +3550,9 @@
             },
             "damageReduction": {
                 "FIRE_ARM": 0.0,
-                "STUN": -5.0,
-                "CLOSE_COMBAT": -5.0,
-                "EXPLOSION": -5.0
+                "STUN": -3.0,
+                "CLOSE_COMBAT": -3.0,
+                "EXPLOSION": -3.0
             },
             "playerStats": [
                 {
@@ -3582,7 +3582,7 @@
                 {
                     "id": -1,
                     "name": "WATER",
-                    "value": 8.0,
+                    "value": 9.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -3612,7 +3612,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -5.0,
+                    "value": -7.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -3839,7 +3839,7 @@
             "customEffects": {}
         },
         "MF_Artefact_Star": {
-            "Description": "Морская звезда | [+] Регенерация HP: +10/тик [+] Вода: +40/тик [-] Радиация (накопление): +21/тик [+] Защита от пуль: +5 [-] Защита от аномалий: -3",
+            "Description": "Морская звезда | [+] Регенерация HP: +9/тик [+] Вода: +40/тик [-] Радиация (накопление): +28/тик [+] Защита от пуль: +5 [-] Защита от аномалий: -3",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -3853,7 +3853,7 @@
             "stackNegativeLimit": -1,
             "usingEnergy": 0.0,
             "usingHP": 0.0,
-            "addHP": 10,
+            "addHP": 9,
             "addBlood": 0,
             "addShock": 0,
             "addBleedigSource": 0.0,
@@ -3930,7 +3930,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 3.0,
+                    "value": 4.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -3945,7 +3945,7 @@
             "customEffects": {}
         },
         "MF_Artefact_Signet": {
-            "Description": "Сапфир | [-] Регенерация HP: -5/тик [+] Кровь: +56/тик [-] Вода: -10/тик [+] Радиация (вывод): -42/тик [+] Скорость: +3",
+            "Description": "Сапфир | [-] Регенерация HP: -3/тик [+] Кровь: +64/тик [-] Вода: -5/тик [+] Радиация (вывод): -56/тик [+] Скорость: +3",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -3959,8 +3959,8 @@
             "stackNegativeLimit": -1,
             "usingEnergy": 0.0,
             "usingHP": 0.0,
-            "addHP": -5,
-            "addBlood": 14,
+            "addHP": -3,
+            "addBlood": 16,
             "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
@@ -4006,7 +4006,7 @@
                 {
                     "id": -1,
                     "name": "WATER",
-                    "value": -2.0,
+                    "value": -1.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -4036,7 +4036,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -6.0,
+                    "value": -8.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -4687,7 +4687,7 @@
             "customEffects": {}
         },
         "ON_Art_Compass": {
-            "Description": "Компас | [+] Регенерация HP: +6/тик [-] Еда: -10/тик [+] Выносливость: +16 [-] Радиация (накопление): +7/тик [+] Прыжок: +5 [-] Кровотечение: шанс/тик",
+            "Description": "Компас | [+] Регенерация HP: +6/тик [-] Еда: -10/тик [+] Выносливость: +12 [-] Радиация (накопление): +14/тик [+] Прыжок: +5 [-] Кровотечение: шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -4760,7 +4760,7 @@
                 {
                     "id": -1,
                     "name": "STAMINA",
-                    "value": 4.0,
+                    "value": 3.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -4778,7 +4778,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 1.0,
+                    "value": 2.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -5535,7 +5535,7 @@
             "customEffects": {}
         },
         "ON_Art_Flytrap": {
-            "Description": "Мухоловка | [+] Кровь: +36/тик [+] Стойкость: +16/тик [-] Выносливость: -8 [-] Радиация (накопление): +14/тик [+] Скорость: +3 [-] Кровотечение: шанс/тик",
+            "Description": "Мухоловка | [+] Кровь: +32/тик [+] Стойкость: +16/тик [-] Выносливость: -8 [-] Радиация (накопление): +21/тик [+] Скорость: +3 [-] Кровотечение: шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -5550,7 +5550,7 @@
             "usingEnergy": 0.0,
             "usingHP": 0.0,
             "addHP": 0,
-            "addBlood": 9,
+            "addBlood": 8,
             "addShock": 2,
             "addBleedigSource": 1.0,
             "brokingLegs": 0,
@@ -5626,7 +5626,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 2.0,
+                    "value": 3.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -6171,7 +6171,7 @@
             "customEffects": {}
         },
         "ON_Art_Grz_Yag": {
-            "Description": "Грозовая ягода | [+] Стойкость: +16/тик [-] Вода: -15/тик [-] Выносливость: -12 [+] Радиация (вывод): -49/тик [+] Прыжок: +5 [-] Кровотечение: шанс/тик",
+            "Description": "Грозовая ягода | [+] Стойкость: +32/тик [-] Вода: -10/тик [-] Выносливость: -8 [+] Радиация (вывод): -63/тик [+] Прыжок: +5 [-] Кровотечение: шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -6187,7 +6187,7 @@
             "usingHP": 0.0,
             "addHP": 0,
             "addBlood": 0,
-            "addShock": 2,
+            "addShock": 4,
             "addBleedigSource": 1.0,
             "brokingLegs": 0,
             "jumpBust": 225.0,
@@ -6232,7 +6232,7 @@
                 {
                     "id": -1,
                     "name": "WATER",
-                    "value": -3.0,
+                    "value": -2.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -6244,7 +6244,7 @@
                 {
                     "id": -1,
                     "name": "STAMINA",
-                    "value": -3.0,
+                    "value": -2.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -6262,7 +6262,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -7.0,
+                    "value": -9.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -6595,7 +6595,7 @@
             "customEffects": {}
         },
         "ON_Art_Korona": {
-            "Description": "Корона | [-] Кровь: -20/тик [-] Еда: -5/тик [+] Вода: +5/тик [+] Радиация (вывод): -28/тик [-] Скорость: -1",
+            "Description": "Корона | [-] Кровь: -8/тик [+] Стойкость: +16/тик [+] Вода: +10/тик [+] Радиация (вывод): -42/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -6610,13 +6610,13 @@
             "usingEnergy": 0.0,
             "usingHP": 0.0,
             "addHP": 0,
-            "addBlood": -5,
-            "addShock": 0,
+            "addBlood": -2,
+            "addShock": 2,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 0,
-            "moveBoost": -10.0,
+            "moveBoost": 0.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 0.0,
                 "ANIMAL_BASE": 0.0,
@@ -6650,13 +6650,13 @@
                 {
                     "id": -1,
                     "name": "ENERGY",
-                    "value": -1.0,
-                    "isNegativeEffect": 1
+                    "value": 0.0,
+                    "isNegativeEffect": 0
                 },
                 {
                     "id": -1,
                     "name": "WATER",
-                    "value": 1.0,
+                    "value": 2.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -6686,7 +6686,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -4.0,
+                    "value": -6.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -6701,7 +6701,7 @@
             "customEffects": {}
         },
         "ON_Art_Lamp": {
-            "Description": "Фонарь | [-] Регенерация HP: -3/тик [+] Кровь: +28/тик [-] Стойкость: -8/тик [+] Радиация (вывод): -21/тик [+] Лечение перелома",
+            "Description": "Фонарь | [-] Регенерация HP: -2/тик [+] Кровь: +36/тик [+] Радиация (вывод): -35/тик [+] Лечение перелома",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 1,
@@ -6715,9 +6715,9 @@
             "stackNegativeLimit": -1,
             "usingEnergy": 0.0,
             "usingHP": 0.0,
-            "addHP": -3,
-            "addBlood": 7,
-            "addShock": -1,
+            "addHP": -2,
+            "addBlood": 9,
+            "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
             "jumpBust": 0.0,
@@ -6792,7 +6792,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -3.0,
+                    "value": -5.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -6913,7 +6913,7 @@
             "customEffects": {}
         },
         "ON_Art_Magma": {
-            "Description": "Магма | [-] Кровь: -24/тик [+] Стойкость: +16/тик [-] Еда: -15/тик [+] Радиация (вывод): -49/тик [-] Скорость: -3 [+] Защита от пуль: +3 [+] Защита от ударов: +6",
+            "Description": "Магма | [-] Кровь: -12/тик [+] Стойкость: +24/тик [-] Еда: -10/тик [+] Радиация (вывод): -63/тик [-] Скорость: -1 [+] Защита от пуль: +4 [+] Защита от ударов: +7",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -6928,22 +6928,22 @@
             "usingEnergy": 0.0,
             "usingHP": 0.0,
             "addHP": 0,
-            "addBlood": -6,
-            "addShock": 2,
+            "addBlood": -3,
+            "addShock": 3,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 0,
-            "moveBoost": -30.0,
+            "moveBoost": -10.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 70.0,
                 "ANIMAL_BASE": 70.0,
                 "PLAYER_BASE": 70.0
             },
             "damageReduction": {
-                "FIRE_ARM": 3.0,
+                "FIRE_ARM": 4.0,
                 "STUN": 0.0,
-                "CLOSE_COMBAT": 6.0,
+                "CLOSE_COMBAT": 7.0,
                 "EXPLOSION": 0.0
             },
             "playerStats": [
@@ -6968,7 +6968,7 @@
                 {
                     "id": -1,
                     "name": "ENERGY",
-                    "value": -3.0,
+                    "value": -2.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -7004,7 +7004,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -7.0,
+                    "value": -9.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -7231,7 +7231,7 @@
             "customEffects": {}
         },
         "ON_Art_Morskaya_Zvezda": {
-            "Description": "Морская звезда | [+] Регенерация HP: +10/тик [+] Вода: +30/тик [-] Радиация (накопление): +21/тик [+] Защита от пуль: +5 [-] Защита от аномалий: -3",
+            "Description": "Морская звезда | [+] Регенерация HP: +9/тик [+] Вода: +30/тик [-] Радиация (накопление): +28/тик [+] Защита от пуль: +5 [-] Защита от аномалий: -3",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -7245,7 +7245,7 @@
             "stackNegativeLimit": -1,
             "usingEnergy": 0.0,
             "usingHP": 0.0,
-            "addHP": 10,
+            "addHP": 9,
             "addBlood": 0,
             "addShock": 0,
             "addBleedigSource": 0.0,
@@ -7322,7 +7322,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 3.0,
+                    "value": 4.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -7337,7 +7337,7 @@
             "customEffects": {}
         },
         "ON_Art_Myas_Zapal": {
-            "Description": "Мясная зажигалка | [+] Кровь: +120/тик [-] Еда: -10/тик [+] Радиация (вывод): -56/тик [-] Защита от пуль: -4 [+] Защита от ударов: +5",
+            "Description": "Мясная зажигалка | [+] Кровь: +136/тик [-] Еда: -5/тик [+] Радиация (вывод): -70/тик [-] Защита от пуль: -2 [+] Защита от ударов: +5",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -7352,7 +7352,7 @@
             "usingEnergy": 0.0,
             "usingHP": 0.0,
             "addHP": 0,
-            "addBlood": 30,
+            "addBlood": 34,
             "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
@@ -7365,7 +7365,7 @@
                 "PLAYER_BASE": 0.0
             },
             "damageReduction": {
-                "FIRE_ARM": -4.0,
+                "FIRE_ARM": -2.0,
                 "STUN": 0.0,
                 "CLOSE_COMBAT": 5.0,
                 "EXPLOSION": 0.0
@@ -7392,7 +7392,7 @@
                 {
                     "id": -1,
                     "name": "ENERGY",
-                    "value": -2.0,
+                    "value": -1.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -7428,7 +7428,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -8.0,
+                    "value": -10.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -7549,7 +7549,7 @@
             "customEffects": {}
         },
         "ON_Art_Plazma": {
-            "Description": "Плазма | [+] Стойкость: +32/тик [+] Выносливость: +40 [-] Радиация (накопление): +28/тик [+] Скорость: +10 [+] Защита от пуль: +5 [-] Защита от аномалий: -6",
+            "Description": "Плазма | [+] Стойкость: +32/тик [+] Выносливость: +36 [-] Радиация (накопление): +35/тик [+] Скорость: +10 [+] Защита от пуль: +5 [-] Защита от аномалий: -6",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -7622,7 +7622,7 @@
                 {
                     "id": -1,
                     "name": "STAMINA",
-                    "value": 10.0,
+                    "value": 9.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -7640,7 +7640,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 4.0,
+                    "value": 5.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -7655,7 +7655,7 @@
             "customEffects": {}
         },
         "ON_Art_Plesen": {
-            "Description": "Плесень | [+] Стойкость: +24/тик [-] Еда: -15/тик [-] Вода: -15/тик [+] Радиация (вывод): -49/тик [+] Прыжок: +6 [-] Кровотечение: шанс/тик",
+            "Description": "Плесень | [+] Кровь: +4/тик [+] Стойкость: +32/тик [-] Еда: -10/тик [-] Вода: -10/тик [+] Радиация (вывод): -63/тик [+] Прыжок: +7 [-] Кровотечение: шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -7670,11 +7670,11 @@
             "usingEnergy": 0.0,
             "usingHP": 0.0,
             "addHP": 0,
-            "addBlood": 0,
-            "addShock": 3,
+            "addBlood": 1,
+            "addShock": 4,
             "addBleedigSource": 1.0,
             "brokingLegs": 0,
-            "jumpBust": 270.0,
+            "jumpBust": 315.0,
             "fallDamageResist": 1,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -7710,13 +7710,13 @@
                 {
                     "id": -1,
                     "name": "ENERGY",
-                    "value": -3.0,
+                    "value": -2.0,
                     "isNegativeEffect": 1
                 },
                 {
                     "id": -1,
                     "name": "WATER",
-                    "value": -3.0,
+                    "value": -2.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -7746,7 +7746,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -7.0,
+                    "value": -9.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -7867,7 +7867,7 @@
             "customEffects": {}
         },
         "ON_Art_Rubiks_Cube": {
-            "Description": "Кубик-рубик | [-] Стойкость: -8/тик [+] Выносливость: +20 [-] Радиация (накопление): +21/тик [+] Прыжок: +7 [+] Защита от пуль: +6 [+] Защита от ударов: +6",
+            "Description": "Кубик-рубик | [-] Стойкость: -8/тик [+] Выносливость: +20 [-] Радиация (накопление): +28/тик [+] Прыжок: +7 [+] Защита от пуль: +6 [+] Защита от ударов: +6",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -7958,7 +7958,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 3.0,
+                    "value": 4.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -7973,7 +7973,7 @@
             "customEffects": {}
         },
         "ON_Art_Sapfir": {
-            "Description": "Сапфир | [-] Регенерация HP: -5/тик [+] Кровь: +48/тик [-] Вода: -10/тик [+] Радиация (вывод): -42/тик [+] Скорость: +3",
+            "Description": "Сапфир | [-] Регенерация HP: -3/тик [+] Кровь: +56/тик [-] Вода: -5/тик [+] Радиация (вывод): -56/тик [+] Скорость: +3",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -7987,8 +7987,8 @@
             "stackNegativeLimit": -1,
             "usingEnergy": 0.0,
             "usingHP": 0.0,
-            "addHP": -5,
-            "addBlood": 12,
+            "addHP": -3,
+            "addBlood": 14,
             "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
@@ -8034,7 +8034,7 @@
                 {
                     "id": -1,
                     "name": "WATER",
-                    "value": -2.0,
+                    "value": -1.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -8064,7 +8064,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -6.0,
+                    "value": -8.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -8079,7 +8079,7 @@
             "customEffects": {}
         },
         "ON_Art_Shell": {
-            "Description": "Скорлупа | [-] Еда: -10/тик [-] Радиация (накопление): +21/тик [+] Скорость: +10 [+] Защита от пуль: +8 [+] Защита от ударов: +10 [+] Лечение кровотечения",
+            "Description": "Скорлупа | [-] Еда: -10/тик [-] Радиация (накопление): +28/тик [+] Скорость: +10 [+] Защита от пуль: +8 [+] Защита от ударов: +10 [+] Лечение кровотечения",
             "Enabled": 1,
             "RemoveBleeding": 1,
             "RemoveBrokenLegs": 0,
@@ -8170,7 +8170,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 3.0,
+                    "value": 4.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -8715,7 +8715,7 @@
             "customEffects": {}
         },
         "ON_Art_Snot": {
-            "Description": "Сопля | [+] Регенерация HP: +10/тик [-] Выносливость: -8 [-] Радиация (накопление): +14/тик [+] Прыжок: +7 [-] Скорость: -4 [+] Лечение кровотечения",
+            "Description": "Сопля | [+] Регенерация HP: +9/тик [-] Выносливость: -8 [-] Радиация (накопление): +21/тик [+] Прыжок: +7 [-] Скорость: -4 [+] Лечение кровотечения",
             "Enabled": 1,
             "RemoveBleeding": 1,
             "RemoveBrokenLegs": 0,
@@ -8729,7 +8729,7 @@
             "stackNegativeLimit": -1,
             "usingEnergy": 0.0,
             "usingHP": 0.0,
-            "addHP": 10,
+            "addHP": 9,
             "addBlood": 0,
             "addShock": 0,
             "addBleedigSource": 0.0,
@@ -8806,7 +8806,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 2.0,
+                    "value": 3.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -8927,7 +8927,7 @@
             "customEffects": {}
         },
         "ON_Art_Strange_Flower": {
-            "Description": "Странный цветок | [-] Стойкость: -8/тик [+] Радиация (вывод): -42/тик [+] Прыжок: +5 [-] Защита от пуль: -2 [+] Лечение кровотечения",
+            "Description": "Странный цветок | [+] Радиация (вывод): -56/тик [+] Прыжок: +6 [-] Защита от пуль: -1 [+] Лечение кровотечения",
             "Enabled": 1,
             "RemoveBleeding": 1,
             "RemoveBrokenLegs": 0,
@@ -8943,10 +8943,10 @@
             "usingHP": 0.0,
             "addHP": 0,
             "addBlood": 0,
-            "addShock": -1,
+            "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
-            "jumpBust": 225.0,
+            "jumpBust": 270.0,
             "fallDamageResist": 1,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -8955,7 +8955,7 @@
                 "PLAYER_BASE": 0.0
             },
             "damageReduction": {
-                "FIRE_ARM": -2.0,
+                "FIRE_ARM": -1.0,
                 "STUN": 0.0,
                 "CLOSE_COMBAT": 0.0,
                 "EXPLOSION": 0.0
@@ -9018,7 +9018,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -6.0,
+                    "value": -8.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -9139,7 +9139,7 @@
             "customEffects": {}
         },
         "ON_Art_Urok_Truda": {
-            "Description": "Урок труда | [-] Кровь: -52/тик [+] Выносливость: +32 [+] Радиация (вывод): -49/тик [+] Скорость: +12 [-] Защита от пуль: -3 [-] Перелом ноги: 20 шанс/тик",
+            "Description": "Урок труда | [-] Кровь: -36/тик [+] Выносливость: +40 [+] Радиация (вывод): -63/тик [+] Скорость: +12 [-] Защита от пуль: -2 [-] Перелом ноги: 20 шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -9154,7 +9154,7 @@
             "usingEnergy": 0.0,
             "usingHP": 0.0,
             "addHP": 0,
-            "addBlood": -13,
+            "addBlood": -9,
             "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 1,
@@ -9167,7 +9167,7 @@
                 "PLAYER_BASE": 0.0
             },
             "damageReduction": {
-                "FIRE_ARM": -3.0,
+                "FIRE_ARM": -2.0,
                 "STUN": 0.0,
                 "CLOSE_COMBAT": 0.0,
                 "EXPLOSION": 0.0
@@ -9212,7 +9212,7 @@
                 {
                     "id": -1,
                     "name": "STAMINA",
-                    "value": 8.0,
+                    "value": 10.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -9230,7 +9230,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -7.0,
+                    "value": -9.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -9245,7 +9245,7 @@
             "customEffects": {}
         },
         "ON_Art_Vyvert": {
-            "Description": "Выверт | [+] Радиация (вывод): -42/тик [+] Защита от пуль: +4 [-] Защита от ударов: -3 [-] Защита от аномалий: -2 [+] Лечение перелома",
+            "Description": "Выверт | [+] Радиация (вывод): -49/тик [+] Защита от пуль: +5 [-] Защита от ударов: -2 [-] Защита от аномалий: -1 [+] Лечение перелома",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 1,
@@ -9273,10 +9273,10 @@
                 "PLAYER_BASE": 0.0
             },
             "damageReduction": {
-                "FIRE_ARM": 4.0,
-                "STUN": -2.0,
-                "CLOSE_COMBAT": -3.0,
-                "EXPLOSION": -2.0
+                "FIRE_ARM": 5.0,
+                "STUN": -1.0,
+                "CLOSE_COMBAT": -2.0,
+                "EXPLOSION": -1.0
             },
             "playerStats": [
                 {
@@ -9336,7 +9336,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -6.0,
+                    "value": -7.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -9351,7 +9351,7 @@
             "customEffects": {}
         },
         "ON_Art_Weird_Bolt": {
-            "Description": "Странный болт | [+] Стойкость: +32/тик [+] Вода: +35/тик [-] Радиация (накопление): +21/тик [+] Прыжок: +6 [-] Защита от аномалий: -3 [-] Перелом ноги: 25 шанс/тик",
+            "Description": "Странный болт | [+] Стойкость: +32/тик [+] Вода: +35/тик [-] Радиация (накопление): +28/тик [+] Прыжок: +6 [-] Защита от аномалий: -3 [-] Перелом ноги: 25 шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -9442,7 +9442,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 3.0,
+                    "value": 4.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -9457,7 +9457,7 @@
             "customEffects": {}
         },
         "ON_Art_Weird_Gajka": {
-            "Description": "Странная гайка | [+] Кровь: +88/тик [+] Стойкость: +24/тик [-] Выносливость: -12 [+] Радиация (вывод): -35/тик [-] Защита от ударов: -3 [-] Кровотечение: шанс/тик",
+            "Description": "Странная гайка | [+] Кровь: +104/тик [+] Стойкость: +32/тик [-] Выносливость: -8 [+] Радиация (вывод): -49/тик [-] Защита от ударов: -2 [-] Кровотечение: шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -9472,8 +9472,8 @@
             "usingEnergy": 0.0,
             "usingHP": 0.0,
             "addHP": 0,
-            "addBlood": 22,
-            "addShock": 3,
+            "addBlood": 26,
+            "addShock": 4,
             "addBleedigSource": 1.0,
             "brokingLegs": 0,
             "jumpBust": 0.0,
@@ -9487,7 +9487,7 @@
             "damageReduction": {
                 "FIRE_ARM": 0.0,
                 "STUN": 0.0,
-                "CLOSE_COMBAT": -3.0,
+                "CLOSE_COMBAT": -2.0,
                 "EXPLOSION": 0.0
             },
             "playerStats": [
@@ -9530,7 +9530,7 @@
                 {
                     "id": -1,
                     "name": "STAMINA",
-                    "value": -3.0,
+                    "value": -2.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -9548,7 +9548,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": -5.0,
+                    "value": -7.0,
                     "isNegativeEffect": 0
                 },
                 {
@@ -9563,7 +9563,7 @@
             "customEffects": {}
         },
         "ON_Art_Zavtrak_Turista": {
-            "Description": "Завтрак туриста | [+] Регенерация HP: +7/тик [+] Еда: +40/тик [+] Вода: +40/тик [-] Выносливость: -20 [-] Радиация (накопление): +28/тик [+] Скорость: +10 [-] Кровотечение: шанс/тик",
+            "Description": "Завтрак туриста | [+] Регенерация HP: +7/тик [+] Еда: +40/тик [+] Вода: +40/тик [-] Выносливость: -20 [-] Радиация (накопление): +35/тик [+] Скорость: +10 [-] Кровотечение: шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -9654,7 +9654,7 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 4.0,
+                    "value": 5.0,
                     "isNegativeEffect": 1
                 },
                 {
@@ -9669,7 +9669,7 @@
             "customEffects": {}
         },
         "ON_Art_Zhidkiy_Kamen": {
-            "Description": "Жидкий камень | [-] Стойкость: -8/тик [-] Радиация (накопление): +14/тик [+] Скорость: +4 [+] Защита от аномалий: +15 [+] Лечение кровотечения [-] Перелом ноги: 20 шанс/тик",
+            "Description": "Жидкий камень | [+] Радиация (вывод): -28/тик [+] Скорость: +4 [+] Защита от аномалий: +15 [+] Лечение кровотечения [-] Перелом ноги: 20 шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 1,
             "RemoveBrokenLegs": 0,
@@ -9685,7 +9685,7 @@
             "usingHP": 0.0,
             "addHP": 0,
             "addBlood": 0,
-            "addShock": -1,
+            "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 1,
             "jumpBust": 0.0,
@@ -9760,8 +9760,8 @@
                 {
                     "id": -1,
                     "name": "TOXICITY",
-                    "value": 2.0,
-                    "isNegativeEffect": 1
+                    "value": -4.0,
+                    "isNegativeEffect": 0
                 },
                 {
                     "id": -1,
