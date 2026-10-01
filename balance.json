@@ -1,0 +1,760 @@
+{
+  "_справка": "Правь цифры у нужного класснейма и запускай: python _rebuild.py — пересоберутся global.json и калькулятор. Значения конфига, целые числа. Очки игрока в описаниях: HP x1, Кровь x4, Стойкость x8, Еда x5, Вода x5, Выносливость x4, Радиация x7 (+накопление/-вывод), Прыжок x45 (45 за очко), Скорость x10 (10 за очко), защиты x1. Флаги: brok=шанс перелома, bleed=1 вызывает кровотечение, hbl/hbr=1 лечение кровотечения/перелома, fall=1 сопротивление падению, punch=1 отбрасывание зомби.",
+  "арты": {
+    "ON_Art_Alpha": {
+      "bl": -12,
+      "sh": 2,
+      "en": 4,
+      "wa": -3,
+      "st": 4,
+      "tox": -5,
+      "brok": 25
+    },
+    "MF_Artefact_Dusha": {
+      "hp": 12,
+      "bl": -12,
+      "sh": -2,
+      "st": -3,
+      "tox": -6,
+      "mb": 2
+    },
+    "ON_Art_Alpha_Dead": {
+      "hp": 10,
+      "bl": -12,
+      "sh": -2,
+      "st": -3,
+      "tox": -6,
+      "mb": 2
+    },
+    "MF_Artefact_Chelust": {
+      "hp": 9,
+      "bl": 17,
+      "en": 9,
+      "wa": -5,
+      "st": -6,
+      "tox": 5,
+      "cc": -7
+    },
+    "MF_Artefact_myso": {
+      "hp": 9,
+      "bl": 16,
+      "en": 9,
+      "wa": -5,
+      "st": -6,
+      "tox": 5,
+      "cc": -7
+    },
+    "ON_Art_MeatChunk": {
+      "hp": 9,
+      "bl": 15,
+      "en": 9,
+      "wa": -5,
+      "st": -6,
+      "tox": 5,
+      "cc": -7
+    },
+    "MF_Artefact_Bat": {
+      "en": -1,
+      "st": 3,
+      "tox": 2,
+      "mb": 2
+    },
+    "ON_Art_Devils_Mushroom": {
+      "en": -1,
+      "st": 1,
+      "tox": 2,
+      "mb": 2
+    },
+    "MF_Artefact_Black_Angel": {
+      "bl": 23,
+      "sh": 4,
+      "en": -4,
+      "wa": -3,
+      "st": -8,
+      "tox": 4
+    },
+    "ON_Art_Heart_Chornobyl": {
+      "bl": 21,
+      "sh": 4,
+      "en": -4,
+      "wa": -3,
+      "st": -8,
+      "tox": 4
+    },
+    "MF_Artefact_Yacheika": {
+      "sh": 3,
+      "en": -5,
+      "wa": -4,
+      "st": 8,
+      "tox": 5,
+      "jb": 5
+    },
+    "MF_Artefact_shturval": {
+      "sh": 3,
+      "en": -5,
+      "wa": -4,
+      "st": 7,
+      "tox": 5,
+      "jb": 5
+    },
+    "ON_Art_GiperCub": {
+      "sh": 3,
+      "en": -5,
+      "wa": -4,
+      "st": 6,
+      "tox": 5,
+      "jb": 5
+    },
+    "MF_Artefact_Fountain": {
+      "sh": -1,
+      "wa": 5,
+      "st": 1,
+      "tox": 2,
+      "hbr": 1
+    },
+    "ON_Art_Kapla": {
+      "sh": -1,
+      "wa": 3,
+      "st": 1,
+      "tox": 2,
+      "hbr": 1
+    },
+    "MF_Artefact_Generator": {
+      "sh": 4,
+      "st": 12,
+      "wa": -5,
+      "tox": 7,
+      "mb": 10,
+      "fa": 5,
+      "an": -12,
+      "fall": 1
+    },
+    "ON_Art_Plazma": {
+      "sh": 4,
+      "st": 10,
+      "wa": -5,
+      "tox": 7,
+      "mb": 10,
+      "fa": 5,
+      "an": -12,
+      "fall": 1
+    },
+    "MF_Artefact_Gimlet": {
+      "bl": -15,
+      "sh": 4,
+      "wa": 9,
+      "tox": 5,
+      "jb": 6,
+      "an": -5,
+      "brok": 25,
+      "fall": 1
+    },
+    "ON_Art_Weird_Bolt": {
+      "bl": -15,
+      "sh": 4,
+      "wa": 7,
+      "tox": 5,
+      "jb": 6,
+      "an": -5,
+      "brok": 25,
+      "fall": 1
+    },
+    "MF_Artefact_Lighthouse": {
+      "hp": -6,
+      "bl": 9,
+      "sh": -1,
+      "en": -3,
+      "tox": -3,
+      "hbr": 1
+    },
+    "ON_Art_Lamp": {
+      "hp": -6,
+      "bl": 7,
+      "sh": -1,
+      "en": -3,
+      "tox": -3,
+      "hbr": 1
+    },
+    "MF_Artefact_Medallion": {
+      "bl": -9,
+      "sh": 2,
+      "en": -1,
+      "wa": 1,
+      "tox": -4,
+      "mb": -1
+    },
+    "ON_Art_Korona": {
+      "bl": -9,
+      "sh": 0,
+      "en": -1,
+      "wa": 1,
+      "tox": -4,
+      "mb": -1
+    },
+    "MF_Artefact_Dragunov": {
+      "hp": -6,
+      "en": -4,
+      "tox": 6,
+      "mb": -6,
+      "cc": 10,
+      "fa": 12,
+      "an": 16,
+      "punch": 1
+    },
+    "ON_Art_Thron": {
+      "hp": -6,
+      "en": -4,
+      "tox": 6,
+      "mb": -6,
+      "cc": 10,
+      "fa": 12,
+      "an": 14,
+      "punch": 1
+    },
+    "MF_Artefact_Phantom": {
+      "bl": -6,
+      "sh": 3,
+      "wa": -4,
+      "jb": 5,
+      "an": -4,
+      "hbr": 1
+    },
+    "MF_Artefact_Svet": {
+      "bl": -6,
+      "sh": 1,
+      "wa": -4,
+      "jb": 5,
+      "an": -4,
+      "hbr": 1
+    },
+    "MF_Artefact_Vspiska": {
+      "bl": -6,
+      "sh": 2,
+      "wa": -4,
+      "jb": 6,
+      "an": -4,
+      "hbr": 1
+    },
+    "ON_Art_Flash": {
+      "bl": -6,
+      "sh": 2,
+      "wa": -4,
+      "jb": 4,
+      "an": -4,
+      "hbr": 1
+    },
+    "MF_Artefact_Medusa": {
+      "hp": 6,
+      "en": -3,
+      "wa": -3,
+      "st": 6,
+      "tox": 2,
+      "jb": 5,
+      "bleed": 1
+    },
+    "ON_Art_Compass": {
+      "hp": 6,
+      "en": -3,
+      "wa": -3,
+      "st": 4,
+      "tox": 2,
+      "jb": 5,
+      "bleed": 1
+    },
+    "MF_Artefact_SkullMiser": {
+      "hp": 8,
+      "bl": -18,
+      "wa": 5,
+      "st": 14,
+      "tox": 5,
+      "mb": -6,
+      "fa": -5
+    },
+    "ON_Art_Rog": {
+      "hp": 8,
+      "bl": -18,
+      "wa": 5,
+      "st": 12,
+      "tox": 5,
+      "mb": -6,
+      "fa": -5
+    },
+    "MF_Artefact_Blood": {
+      "hp": 7,
+      "bl": 14,
+      "sh": -2,
+      "st": -5,
+      "tox": 2,
+      "hbl": 1
+    },
+    "ON_Art_Blood_Stone": {
+      "hp": 7,
+      "bl": 12,
+      "sh": -2,
+      "st": -5,
+      "tox": 2,
+      "hbl": 1
+    },
+    "MF_Artefact_Kristall": {
+      "bl": -8,
+      "sh": 3,
+      "wa": -3,
+      "tox": 4,
+      "fa": 6,
+      "cc": 6,
+      "hbr": 1,
+      "punch": 1
+    },
+    "ON_Art_Crystal": {
+      "bl": -8,
+      "sh": 1,
+      "wa": -3,
+      "tox": 4,
+      "fa": 6,
+      "cc": 6,
+      "hbr": 1,
+      "punch": 1
+    },
+    "MF_Artefact_StoneFlower": {
+      "sh": -2,
+      "en": -5,
+      "tox": -6,
+      "jb": 7,
+      "fa": -4,
+      "hbl": 1,
+      "fall": 1
+    },
+    "ON_Art_Strange_Flower": {
+      "sh": -2,
+      "en": -5,
+      "tox": -6,
+      "jb": 5,
+      "fa": -4,
+      "hbl": 1,
+      "fall": 1
+    },
+    "MF_Artefact_Oasis": {
+      "bl": 12,
+      "en": -5,
+      "wa": 5,
+      "st": -6,
+      "tox": -5,
+      "hbl": 1,
+      "brok": 25
+    },
+    "ON_Art_Oasis": {
+      "bl": 10,
+      "en": -5,
+      "wa": 5,
+      "st": -6,
+      "tox": -5,
+      "hbl": 1,
+      "brok": 25
+    },
+    "MF_Artefact_Battery": {
+      "bl": 6,
+      "en": -4,
+      "wa": 7,
+      "st": 5,
+      "tox": 4,
+      "mb": -1
+    },
+    "MF_Artefact_izolator": {
+      "bl": 6,
+      "en": -4,
+      "wa": 6,
+      "st": 5,
+      "tox": 4,
+      "mb": -1
+    },
+    "ON_Art_Electro_Battery": {
+      "bl": 6,
+      "en": -4,
+      "wa": 5,
+      "st": 5,
+      "tox": 4,
+      "mb": -1
+    },
+    "MF_Artefact_Pusto": {
+      "bl": 4,
+      "en": 1,
+      "st": -1,
+      "hbl": 1
+    },
+    "ON_Art_BakedBolts": {
+      "bl": 2,
+      "en": 1,
+      "st": -1,
+      "hbl": 1
+    },
+    "MF_Artefact_MamaBus": {
+      "sh": 3,
+      "en": 6,
+      "wa": -5,
+      "st": 5,
+      "tox": 4,
+      "cc": -3
+    },
+    "ON_Art_Sh_Korol": {
+      "sh": 3,
+      "en": 4,
+      "wa": -5,
+      "st": 5,
+      "tox": 4,
+      "cc": -3
+    },
+    "MF_Artefact_Glaz": {
+      "sh": 4,
+      "wa": -5,
+      "st": -6,
+      "tox": -7,
+      "jb": 5,
+      "bleed": 1
+    },
+    "ON_Art_Grz_Yag": {
+      "sh": 2,
+      "wa": -5,
+      "st": -6,
+      "tox": -7,
+      "jb": 5,
+      "bleed": 1
+    },
+    "MF_Artefact_Gravi": {
+      "hp": 9,
+      "bl": -6,
+      "sh": 4,
+      "en": -4,
+      "tox": 2
+    },
+    "ON_Art_Gravy": {
+      "hp": 9,
+      "bl": -6,
+      "sh": 2,
+      "en": -4,
+      "tox": 2
+    },
+    "MF_Artefact_Kolobok": {
+      "en": 8,
+      "wa": 7,
+      "tox": 5,
+      "mb": -4,
+      "brok": 20
+    },
+    "MF_Artefact_Ribka": {
+      "en": 7,
+      "wa": 7,
+      "tox": 5,
+      "mb": -4,
+      "brok": 20
+    },
+    "ON_Art_Goldfish": {
+      "en": 6,
+      "wa": 7,
+      "tox": 5,
+      "mb": -4,
+      "brok": 20
+    },
+    "MF_Artefact_Plamya": {
+      "bl": -7,
+      "sh": 2,
+      "en": 1,
+      "st": -4,
+      "tox": -4,
+      "mb": 3
+    },
+    "MF_Artefact_Shar": {
+      "bl": -7,
+      "sh": 1,
+      "en": 1,
+      "st": -4,
+      "tox": -4,
+      "mb": 3
+    },
+    "ON_Art_Fireball": {
+      "bl": -7,
+      "sh": 0,
+      "en": 1,
+      "st": -4,
+      "tox": -4,
+      "mb": 3
+    },
+    "MF_Artefact_Puzir": {
+      "bl": 6,
+      "wa": -2,
+      "st": 3,
+      "tox": 1,
+      "brok": 5
+    },
+    "ON_Art_Slug": {
+      "bl": 4,
+      "wa": -2,
+      "st": 3,
+      "tox": 1,
+      "brok": 5
+    },
+    "MF_Artefact_snejinka": {
+      "sh": 2,
+      "wa": 8,
+      "en": -5,
+      "tox": -5,
+      "cc": -10,
+      "an": -10,
+      "hbr": 1
+    },
+    "ON_Art_Slime": {
+      "sh": 2,
+      "wa": 6,
+      "en": -5,
+      "tox": -5,
+      "cc": -10,
+      "an": -10,
+      "hbr": 1
+    },
+    "MF_Artefact_Star": {
+      "hp": 10,
+      "wa": 8,
+      "st": -4,
+      "tox": 6,
+      "fa": 5,
+      "an": -5
+    },
+    "ON_Art_Morskaya_Zvezda": {
+      "hp": 10,
+      "wa": 6,
+      "st": -4,
+      "tox": 6,
+      "fa": 5,
+      "an": -5
+    },
+    "MF_Artefact_Signet": {
+      "hp": -10,
+      "bl": 14,
+      "en": -6,
+      "wa": -3,
+      "tox": -6,
+      "mb": 3
+    },
+    "ON_Art_Sapfir": {
+      "hp": -10,
+      "bl": 12,
+      "en": -6,
+      "wa": -3,
+      "tox": -6,
+      "mb": 3
+    },
+    "ON_Art_Arfa": {
+      "hp": -10,
+      "sh": 4,
+      "en": -5,
+      "wa": 7,
+      "tox": 5,
+      "cc": 6,
+      "punch": 1
+    },
+    "ON_Art_Bifshteks": {
+      "bl": 8,
+      "sh": -1,
+      "en": 7,
+      "wa": -6,
+      "tox": 3,
+      "hbl": 1
+    },
+    "ON_Art_Bitiy_Kamen": {
+      "bl": -4,
+      "en": -1,
+      "wa": 3,
+      "tox": 1,
+      "jb": 1
+    },
+    "ON_Art_Cherevo": {
+      "bl": -3,
+      "sh": 1,
+      "en": 2,
+      "st": -1,
+      "tox": -1
+    },
+    "ON_Art_Dziga": {
+      "hp": 2,
+      "tox": 1,
+      "brok": 5
+    },
+    "ON_Art_Fakel": {
+      "bl": 6,
+      "sh": -1,
+      "en": 1,
+      "wa": -1,
+      "tox": -2
+    },
+    "ON_Art_Flytrap": {
+      "bl": 9,
+      "sh": 2,
+      "st": -3,
+      "tox": 3,
+      "mb": 3,
+      "bleed": 1
+    },
+    "ON_Art_Galka": {
+      "sh": -2,
+      "en": -3,
+      "wa": 5,
+      "st": 4,
+      "tox": 4,
+      "jb": 5
+    },
+    "ON_Art_Greben": {
+      "bl": -6,
+      "en": 2,
+      "wa": 2,
+      "tox": 1,
+      "mb": -1
+    },
+    "ON_Art_Jumper": {
+      "hp": 2,
+      "en": -2,
+      "wa": -1,
+      "tox": -1,
+      "hbr": 1
+    },
+    "ON_Art_Lira": {
+      "hp": -2,
+      "bl": 3,
+      "en": -1,
+      "wa": 2
+    },
+    "ON_Art_Magma": {
+      "bl": -12,
+      "sh": 2,
+      "en": -5,
+      "tox": -7,
+      "mb": -3,
+      "cc": 6,
+      "fa": 3,
+      "punch": 1
+    },
+    "ON_Art_Mertvaya_Guba": {
+      "hp": -6,
+      "en": -3,
+      "tox": 3,
+      "fa": 5,
+      "cc": 5,
+      "hbl": 1,
+      "hbr": 1
+    },
+    "ON_Art_Myas_Zapal": {
+      "bl": 30,
+      "en": -4,
+      "wa": -8,
+      "st": -10,
+      "tox": -8,
+      "cc": 5,
+      "fa": -8
+    },
+    "ON_Art_Plesen": {
+      "bl": -11,
+      "sh": 3,
+      "en": -6,
+      "wa": -6,
+      "tox": -7,
+      "jb": 6,
+      "bleed": 1,
+      "fall": 1
+    },
+    "ON_Art_Rubiks_Cube": {
+      "sh": -2,
+      "st": 5,
+      "wa": -4,
+      "tox": 5,
+      "jb": 7,
+      "cc": 6,
+      "fa": 6,
+      "fall": 1
+    },
+    "ON_Art_Shell": {
+      "en": -4,
+      "st": -5,
+      "tox": 5,
+      "mb": 10,
+      "cc": 10,
+      "fa": 8,
+      "hbl": 1,
+      "fall": 1
+    },
+    "ON_Art_Shokoladka": {
+      "bl": 7,
+      "sh": -1,
+      "en": 4,
+      "wa": -1,
+      "tox": 1
+    },
+    "ON_Art_Slyuda": {
+      "hp": -2,
+      "sh": 1,
+      "wa": 1,
+      "st": -2,
+      "tox": -2
+    },
+    "ON_Art_Snot": {
+      "hp": 10,
+      "st": -4,
+      "tox": 3,
+      "jb": 7,
+      "mb": -4,
+      "hbl": 1,
+      "fall": 1
+    },
+    "ON_Art_Strange_Cauldron": {
+      "hp": 8,
+      "bl": 25,
+      "wa": -8,
+      "tox": 7,
+      "cc": -5,
+      "fa": -5,
+      "an": 5
+    },
+    "ON_Art_Urok_Truda": {
+      "bl": -25,
+      "st": 8,
+      "tox": -7,
+      "mb": 12,
+      "fa": -6,
+      "brok": 20,
+      "fall": 1
+    },
+    "ON_Art_Vyvert": {
+      "en": -6,
+      "tox": -6,
+      "cc": -5,
+      "fa": 4,
+      "an": -4,
+      "hbr": 1
+    },
+    "ON_Art_Weird_Gajka": {
+      "bl": 22,
+      "sh": 3,
+      "en": -6,
+      "st": -6,
+      "tox": -5,
+      "cc": -5,
+      "bleed": 1
+    },
+    "ON_Art_Zavtrak_Turista": {
+      "hp": 7,
+      "en": 8,
+      "wa": 8,
+      "st": -9,
+      "tox": 7,
+      "mb": 10,
+      "bleed": 1,
+      "fall": 1
+    },
+    "ON_Art_Zhidkiy_Kamen": {
+      "sh": -2,
+      "tox": 4,
+      "mb": 4,
+      "an": 15,
+      "hbl": 1,
+      "brok": 20,
+      "punch": 1
+    }
+  }
+}
