@@ -7,7 +7,7 @@
   3. Получаешь обновлённые global.json (с честными описаниями) и арты_база.js для калькулятора.
 
 Единицы (тики каждые 3 сек; в описаниях и калькуляторе очки игрока = значение конфига x множитель):
-  HP           addHP        x1    |  Прыжок   jumpBust    = 45 x очки
+  HP           addHP        x1    |  Прыжок   jumpBust    = очки (скорость взлёта; 16 = ~15 м высоты)
   Кровь        addBlood     x4    |  Скорость moveBoost   = 10 x очки
   Стойкость    addShock     x8    |  Защита от пуль     damageReduction.FIRE_ARM      x1
   Еда          ENERGY       x5    |  Защита от ударов   damageReduction.CLOSE_COMBAT  x1
@@ -242,7 +242,7 @@ def main():
         e['brokingLegs'] = 1 if g(d, 'brok') else 0
         if g(d, 'brok'):
             e['BrokenLegsChance'] = d['brok']
-        e['jumpBust'] = 45.0 * g(d, 'jb')
+        e['jumpBust'] = 1.0 * g(d, 'jb')   # jumpBust = скорость взлёта м/с (16 = ~15 м высоты)
         e['moveBoost'] = 10.0 * g(d, 'mb')
         e['fallDamageResist'] = 1 if g(d, 'fall') else 0
         e['RemoveBleeding'] = 1 if g(d, 'hbl') else 0

@@ -553,7 +553,7 @@
             "customEffects": {}
         },
         "ON_Art_Bitiy_Kamen": {
-            "Description": "Битый камень | [-] Еда: -5/тик [+] Вода: +15/тик [-] Радиация (накопление): +7/тик [+] Прыжок: +1",
+            "Description": "Битый камень | [-] Еда: -5/тик [+] Вода: +15/тик [-] Радиация (накопление): +7/тик [+] Прыжок: +4",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -572,7 +572,7 @@
             "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
-            "jumpBust": 45.0,
+            "jumpBust": 4.0,
             "fallDamageResist": 0,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -871,7 +871,7 @@
             "customEffects": {}
         },
         "ON_Art_Compass": {
-            "Description": "Компас | [+] Регенерация HP: +6/тик [-] Еда: -10/тик [+] Выносливость: +12 [-] Радиация (накопление): +14/тик [+] Прыжок: +1 [-] Кровотечение: шанс/тик",
+            "Description": "Компас | [+] Регенерация HP: +6/тик [-] Еда: -10/тик [+] Выносливость: +12 [-] Радиация (накопление): +14/тик [+] Прыжок: +8 [-] Кровотечение: шанс/тик",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -890,7 +890,7 @@
             "addShock": 0,
             "addBleedigSource": 1.0,
             "brokingLegs": 0,
-            "jumpBust": 45.0,
+            "jumpBust": 8.0,
             "fallDamageResist": 0,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -1613,7 +1613,7 @@
             "customEffects": {}
         },
         "ON_Art_Flash": {
-            "Description": "Вспышка | [+] Стойкость: +16/тик [-] Вода: -10/тик [+] Прыжок: +1 [-] Защита от аномалий: -2 [+] Лечение перелома",
+            "Description": "Вспышка | [+] Стойкость: +16/тик [-] Вода: -10/тик [+] Прыжок: +8 [-] Защита от аномалий: -2 [+] Лечение перелома",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 1,
@@ -1632,7 +1632,7 @@
             "addShock": 2,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
-            "jumpBust": 45.0,
+            "jumpBust": 8.0,
             "fallDamageResist": 0,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -1825,7 +1825,7 @@
             "customEffects": {}
         },
         "ON_Art_Galka": {
-            "Description": "Галька | [-] Еда: -10/тик [+] Вода: +25/тик [+] Выносливость: +16 [-] Радиация (накопление): +14/тик [+] Прыжок: +1",
+            "Description": "Галька | [-] Еда: -10/тик [+] Вода: +25/тик [+] Выносливость: +16 [-] Радиация (накопление): +14/тик [+] Прыжок: +8",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -1844,7 +1844,7 @@
             "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
-            "jumpBust": 45.0,
+            "jumpBust": 8.0,
             "fallDamageResist": 0,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -1931,7 +1931,7 @@
             "customEffects": {}
         },
         "ON_Art_GiperCub": {
-            "Description": "Гиперкуб | [+] Стойкость: +24/тик [+] Выносливость: +24 [+] Прыжок: +1",
+            "Description": "Гиперкуб | [+] Стойкость: +24/тик [+] Выносливость: +24 [+] Прыжок: +8",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -1950,7 +1950,7 @@
             "addShock": 3,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
-            "jumpBust": 45.0,
+            "jumpBust": 8.0,
             "fallDamageResist": 0,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -2374,7 +2374,7 @@
             "addShock": 4,
             "addBleedigSource": 1.0,
             "brokingLegs": 0,
-            "jumpBust": 45.0,
+            "jumpBust": 1.0,
             "fallDamageResist": 0,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -2567,7 +2567,7 @@
             "customEffects": {}
         },
         "ON_Art_Jumper": {
-            "Description": "Попрыгунчик | [+] Регенерация HP: +2/тик [-] Еда: -5/тик [-] Вода: -5/тик [+] Радиация (вывод): -7/тик [+] Лечение перелома",
+            "Description": "Попрыгунчик | [+] Регенерация HP: +2/тик [-] Еда: -5/тик [-] Вода: -5/тик [+] Радиация (вывод): -7/тик [+] Прыжок: +4 [+] Лечение перелома",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 1,
@@ -2586,7 +2586,7 @@
             "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
-            "jumpBust": 0.0,
+            "jumpBust": 4.0,
             "fallDamageResist": 0,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -3858,7 +3858,7 @@
             "addShock": 4,
             "addBleedigSource": 1.0,
             "brokingLegs": 0,
-            "jumpBust": 45.0,
+            "jumpBust": 1.0,
             "fallDamageResist": 1,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -4051,7 +4051,7 @@
             "customEffects": {}
         },
         "ON_Art_Rubiks_Cube": {
-            "Description": "Кубик-рубик | [-] Стойкость: -8/тик [+] Выносливость: +20 [-] Радиация (накопление): +28/тик [+] Прыжок: +1 [+] Защита от пуль: +6 [+] Защита от ударов: +6",
+            "Description": "Кубик-рубик | [-] Стойкость: -8/тик [+] Выносливость: +20 [-] Радиация (накопление): +28/тик [+] Прыжок: +16 [+] Защита от пуль: +6 [+] Защита от ударов: +6",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -4070,7 +4070,7 @@
             "addShock": -1,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
-            "jumpBust": 45.0,
+            "jumpBust": 16.0,
             "fallDamageResist": 1,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -4899,7 +4899,7 @@
             "customEffects": {}
         },
         "ON_Art_Snot": {
-            "Description": "Сопля | [+] Регенерация HP: +9/тик [-] Выносливость: -8 [-] Радиация (накопление): +21/тик [+] Прыжок: +1 [+] Лечение кровотечения",
+            "Description": "Сопля | [+] Регенерация HP: +9/тик [-] Выносливость: -8 [-] Радиация (накопление): +21/тик [+] Прыжок: +12 [+] Лечение кровотечения",
             "Enabled": 1,
             "RemoveBleeding": 1,
             "RemoveBrokenLegs": 0,
@@ -4918,7 +4918,7 @@
             "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
-            "jumpBust": 45.0,
+            "jumpBust": 12.0,
             "fallDamageResist": 1,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -5111,7 +5111,7 @@
             "customEffects": {}
         },
         "ON_Art_Strange_Flower": {
-            "Description": "Странный цветок | [+] Радиация (вывод): -56/тик [+] Прыжок: +1 [-] Защита от пуль: -1 [+] Лечение кровотечения",
+            "Description": "Странный цветок | [+] Радиация (вывод): -56/тик [+] Прыжок: +16 [-] Защита от пуль: -1 [+] Лечение кровотечения",
             "Enabled": 1,
             "RemoveBleeding": 1,
             "RemoveBrokenLegs": 0,
@@ -5130,7 +5130,7 @@
             "addShock": 0,
             "addBleedigSource": 0.0,
             "brokingLegs": 0,
-            "jumpBust": 45.0,
+            "jumpBust": 16.0,
             "fallDamageResist": 1,
             "moveBoost": 0.0,
             "punchImpulse": {
@@ -5554,7 +5554,7 @@
             "addShock": 4,
             "addBleedigSource": 0.0,
             "brokingLegs": 1,
-            "jumpBust": 45.0,
+            "jumpBust": 1.0,
             "fallDamageResist": 1,
             "moveBoost": 0.0,
             "punchImpulse": {
