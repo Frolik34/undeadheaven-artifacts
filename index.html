@@ -694,18 +694,14 @@ function renderTotals() {
     sc.classList.toggle('full', totalQty() >= MAX_SLOTS);
 }
 
-/* ---------- готовые сборки (арты с дебафами, все статы >= 0, рад выводится) ---------- */
+/* ---------- готовые сборки (только ON_Art, все статы >= 0, рад выводится) ---------- */
 const PRESETS = {
-    'СТАРТ': { sel: { 'MF_Artefact_Battery': 1, 'MF_Artefact_Lighthouse': 1, 'MF_Artefact_Plamya': 1, 'MF_Artefact_Shar': 1, 'ON_Art_Electro_Battery': 3, 'ON_Art_Jumper': 1, 'ON_Art_Shokoladka': 2 },
-        hint: 'Дешёвые обычные арты: кровь +164, вода +95, выносливость +64, рад -28' },
-    'ФАРМ': { sel: { 'MF_Artefact_Battery': 2, 'MF_Artefact_Lighthouse': 3, 'ON_Art_Electro_Battery': 1, 'ON_Art_Lamp': 1, 'ON_Art_Shokoladka': 1, 'ON_Art_Zavtrak_Turista': 2 },
-        hint: 'Сытость и вода: еда +70, вода +170, кровь +268, рад -21' },
-    'ЗОНЩИК': { sel: { 'MF_Artefact_Blood': 1, 'MF_Artefact_Lighthouse': 1, 'MF_Artefact_Medallion': 2, 'MF_Artefact_Signet': 1, 'MF_Artefact_Yacheika': 1, 'ON_Art_Alpha_Dead': 1, 'ON_Art_Korona': 1, 'ON_Art_Sapfir': 2 },
-        hint: 'Вывод радиации: рад -343/тик, кровь +252, стойкость +80' },
-    'ТОП': { sel: { 'MF_Artefact_myso': 1, 'MF_Artefact_shturval': 1, 'ON_Art_Magma': 1, 'ON_Art_Myas_Zapal': 4, 'ON_Art_Rog': 1, 'ON_Art_Shell': 1, 'ON_Art_Weird_Gajka': 1 },
-        hint: 'Мощь: кровь +700, рад -301, стойкость +80, выносливость +68' },
-    'ШТУРМ': { sel: { 'MF_Artefact_Yacheika': 1, 'MF_Artefact_shturval': 1, 'ON_Art_Flytrap': 2, 'ON_Art_Magma': 3, 'ON_Art_Shell': 1, 'ON_Art_Snot': 1, 'ON_Art_Zavtrak_Turista': 1 },
-        hint: 'Мобильность и защита: стойкость +152, прыжок +17, скорость +19, пуля +20, удары +31' }
+    'СТАРТ': { sel: { 'ON_Art_BakedBolts': 1, 'ON_Art_Electro_Battery': 3, 'ON_Art_Fireball': 1, 'ON_Art_Jumper': 1, 'ON_Art_Lamp': 1, 'ON_Art_Shokoladka': 3 },
+        hint: 'Дешёвые обычные арты: кровь +184, еда +35, вода +55, выносливость +48, рад -7' },
+    'ФАРМ': { sel: { 'ON_Art_Electro_Battery': 3, 'ON_Art_Lamp': 4, 'ON_Art_Lira': 1, 'ON_Art_Zavtrak_Turista': 2 },
+        hint: 'Сытость и вода: вода +165, кровь +228, еда +45, рад -28' },
+    'ТОП': { sel: { 'ON_Art_Heart_Chornobyl': 2, 'ON_Art_Magma': 1, 'ON_Art_MeatChunk': 2, 'ON_Art_Rog': 1, 'ON_Art_Shell': 2, 'ON_Art_Weird_Gajka': 2 },
+        hint: 'Мощь: кровь +484, стойкость +152, еда +60, рад -14, защиты +17/+15' }
 };
 
 function renderPresets() {

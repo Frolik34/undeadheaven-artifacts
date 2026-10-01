@@ -20,13 +20,15 @@
 import json, sys, io, os
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-DIR = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(DIR, 'global_old.json')      # источник структуры (или global.json, если бэкапа нет)
-if not os.path.exists(SRC):
-    SRC = os.path.join(DIR, 'global.json')
+DIR = r'C:\Users\Frolik\Desktop\арты'
+SRC = os.path.join(DIR, 'global_old.json')      # нетронутый оригинал (источник структуры)
 OUT = os.path.join(DIR, 'global.json')
 BAL = os.path.join(DIR, 'balance.json')
 DB = os.path.join(DIR, 'арты_база.js')
+
+# ТОЛЬКО ON_Art: MF_Artefact убраны из конструктора и global.json.
+# Вернуть MF: поставить False и запустить python _rebuild.py
+ONLY_ON = True
 
 # ---------- База по уникальным названиям (значения конфига, целые) ----------
 BASE = {
@@ -181,6 +183,12 @@ def main():
     with open(SRC, encoding='utf-8') as f:
         data = json.load(f)
     effs = data['effects']
+    if ONLY_ON:
+        dropped = [k for k in effs if k.startswith('MF_')]
+        for k in dropped:
+            del data['effects'][k]
+        effs = data['effects']
+        print(f'ONLY_ON: убрано MF_Artefact из global.json: {len(dropped)} шт.')
 
     classes_by_name = {}
     for key, e in effs.items():
@@ -267,7 +275,8 @@ def main():
                    'st': p['st'], 'tox': p['tox'], 'jb': p['jb'], 'mb': p['mb'],
                    'fa': p['fa'], 'cc': p['cc'], 'an': p['an'],
                    'hbl': g(d, 'hbl'), 'hbr': g(d, 'hbr'), 'bleed': g(d, 'bleed'),
-                   'brok': g(d, 'brok'), 'fall': g(d, 'fall'), 'punch': g(d, 'punch')}
+                   'brok': g(d, 'brok'), 'fall': g(d, 'fall'), 'punch': g(d, 'punch'),
+                   'clean': g(d, 'clean')}
     with open(DB, 'w', encoding='utf-8') as f:
         f.write('// Сгенерировано _rebuild.py из balance.json — не правь руками, правь balance.json\n')
         f.write('window.ART_DB = ' + json.dumps(db, ensure_ascii=False, indent=1) + ';\n')

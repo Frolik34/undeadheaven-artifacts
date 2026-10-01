@@ -147,11 +147,12 @@
    "sh": 4,
    "st": 9,
    "wa": 0,
-   "tox": 5,
+   "tox": -4,
    "mb": 10,
    "fa": 5,
-   "an": -6,
-   "fall": 1
+   "an": 0,
+   "fall": 1,
+   "clean": 3
   },
   "MF_Artefact_Gimlet": {
    "bl": 0,
@@ -219,14 +220,15 @@
    "clean": 3
   },
   "ON_Art_Thron": {
-   "hp": -3,
+   "hp": 0,
    "en": 0,
-   "tox": 3,
-   "mb": -6,
+   "tox": -4,
+   "mb": 0,
    "cc": 10,
    "fa": 12,
    "an": 14,
-   "punch": 1
+   "punch": 1,
+   "clean": 3
   },
   "MF_Artefact_Phantom": {
    "bl": 0,
@@ -673,12 +675,13 @@
   },
   "ON_Art_Myas_Zapal": {
    "bl": 34,
-   "en": -1,
+   "en": 0,
    "wa": 0,
    "st": 0,
    "tox": -10,
    "cc": 5,
-   "fa": -2
+   "fa": 0,
+   "clean": 3
   },
   "ON_Art_Plesen": {
    "bl": 1,
