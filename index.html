@@ -183,6 +183,11 @@
 
     .artifact-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
     .artifact-name { font-weight: bold; color: #e6e2d8; font-size: .95em; }
+    .clean-badge {
+        color: #ffd75e; font-size: .7em; letter-spacing: .05em;
+        border: 1px solid rgba(255,215,94,.45); padding: 1px 7px;
+        text-shadow: 0 0 8px rgba(255,215,94,.4);
+    }
     .artifact-class { color: var(--faint); font-size: .68em; }
 
     .stat-chips { display: flex; flex-wrap: wrap; gap: 4px 8px; }
@@ -376,6 +381,7 @@
                 <button class="chip" data-f="mob">💨 Мобильность</button>
                 <button class="chip" data-f="hbr">🦵 Лечение перелома</button>
                 <button class="chip" data-f="hbl">🩹 Лечение кровотечения</button>
+                <button class="chip" data-f="clean">⭐ Без минусов</button>
             </div>
             <div class="artifact-grid" id="artifactList"></div>
         </div>
@@ -492,6 +498,7 @@ function inFilter(a) {
         case 'mob':  return a.jb > 0 || a.mb > 0 || a.st > 0;
         case 'hbr':  return a.hbr > 0;
         case 'hbl':  return a.hbl > 0;
+        case 'clean': return a.clean > 0;
         default: return true;
     }
 }
@@ -511,6 +518,7 @@ function cardHTML(id) {
     return `
         <div class="artifact-head">
             <span class="artifact-name">${esc(a.name)}</span>
+            ${a.clean ? `<span class="clean-badge" title="Чистый арт: без минусов, тир ${a.clean}">⭐ Т${a.clean}</span>` : ''}
             <span class="artifact-class">${esc(id)}</span>
         </div>
         <div class="stat-chips">${chips}</div>
