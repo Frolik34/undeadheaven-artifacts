@@ -558,7 +558,7 @@ function cardHTML(id) {
 
 function iconSrc(id) {
     const p = window.ART_ICONS && window.ART_ICONS[id];
-    return p ? encodeURI(p) : '';
+    return p ? encodeURI(p) + '?v=7' : '';
 }
 
 function renderCatalog() {
