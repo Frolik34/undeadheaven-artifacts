@@ -1189,7 +1189,7 @@
             "customEffects": {}
         },
         "MF_Artefact_Dragunov": {
-            "Description": "Колючка | [-] Скорость: -6 [+] Защита от пуль: +12 [+] Защита от ударов: +10 [+] Защита от аномалий: +16",
+            "Description": "Колючка | [+] Защита от пуль: +12 [+] Защита от ударов: +10 [+] Защита от аномалий: +16",
             "Enabled": 1,
             "RemoveBleeding": 0,
             "RemoveBrokenLegs": 0,
@@ -1210,7 +1210,7 @@
             "brokingLegs": 0,
             "jumpBust": 0.0,
             "fallDamageResist": 0,
-            "moveBoost": -60.0,
+            "moveBoost": 0.0,
             "punchImpulse": {
                 "ZOMBIE_BASE": 70.0,
                 "ANIMAL_BASE": 70.0,
