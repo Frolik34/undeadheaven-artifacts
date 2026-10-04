@@ -26,10 +26,11 @@
         min-height: 100vh;
     }
 
-    /* ---------- фон: арт с загрузочного экрана ---------- */
+    /* ---------- фон: арты загрузочных экранов, кроссфейд-ротация ---------- */
     .bg-art {
         position: fixed; inset: 0; z-index: -3;
-        background: url('bg1.jpg') center / cover no-repeat fixed;
+        background: center / cover no-repeat fixed;
+        transition: opacity 2.5s ease;
     }
     .bg-dim {
         position: fixed; inset: 0; z-index: -2;
@@ -371,7 +372,8 @@
 </style>
 </head>
 <body>
-<div class="bg-art"></div>
+<div class="bg-art" id="bgA"></div>
+<div class="bg-art" id="bgB" style="opacity:0"></div>
 <div class="bg-dim"></div>
 
 <div class="container">
@@ -436,7 +438,6 @@
             <div class="flags-line" id="flagsLine"></div>
             <div id="verdict"></div>
             <div class="warnings" id="warnings"></div>
-            <div style="font-size:.78em;color:var(--dim);margin-top:10px;line-height:1.5;">💨 <b>Скорость</b> — очки кнопочного ускорения: в игре жми <b>F6</b> → +0,15 м/с за очко (потолок +1,2 м/с) на 3 минуты, откат 5 минут. Прыжок работает как раньше, без кнопки.</div>
 
             <div class="builds-box">
                 <div class="panel-title" style="font-size:1em; border-bottom:none; padding-bottom:0; margin-bottom:10px;"><span>💾</span> МОИ СБОРКИ</div>
@@ -463,8 +464,8 @@
 
 <div class="toast" id="toast"></div>
 
-<script src="арты_база.js?v=8"></script>
-<script src="арты_иконки.js?v=8"></script>
+<script src="арты_база.js?v=9"></script>
+<script src="арты_иконки.js?v=9"></script>
 <script>
 'use strict';
 
@@ -473,7 +474,7 @@ const IDS = Object.keys(DB);
 const MAX_SLOTS = 10;
 const MULT = 20; // тиков в минуту
 
-const NUM = ['hp','bl','sh','en','wa','st','tox','jb','mb','fa','cc','an'];
+const NUM = ['hp','bl','sh','en','wa','st','tox','jb','fa','cc','an']; // скорость (mb) удалена из игры полностью
 const META = {
     hp:  { n: 'Регенерация HP',   i: '❤️' },
     bl:  { n: 'Кровь',            i: '🩸' },
@@ -559,7 +560,7 @@ function cardHTML(id) {
 
 function iconSrc(id) {
     const p = window.ART_ICONS && window.ART_ICONS[id];
-    return p ? encodeURI(p) + '?v=8' : '';
+    return p ? encodeURI(p) + '?v=9' : '';
 }
 
 function renderCatalog() {
@@ -842,6 +843,21 @@ document.getElementById('presets').addEventListener('click', e => {
     const btn = e.target.closest('.preset-btn');
     if (btn) loadPreset(btn.dataset.p);
 });
+
+/* ---------- ротация фона (загрузочные экраны сервера) ---------- */
+const BGS = ['bg1.jpg','bg2.jpg','bg3.jpg','bg4.jpg','bg5.jpg','bg6.jpg','bg7.jpg','bg8.jpg'];
+BGS.forEach(s => { const i = new Image(); i.src = s; });
+let bgIdx = 0;
+const bgA = document.getElementById('bgA'), bgB = document.getElementById('bgB');
+bgA.style.backgroundImage = 'url("' + BGS[0] + '")';
+setInterval(() => {
+    bgIdx = (bgIdx + 1) % BGS.length;
+    const show = bgA.style.opacity === '0' ? bgA : bgB;
+    const hide = show === bgA ? bgB : bgA;
+    show.style.backgroundImage = 'url("' + BGS[bgIdx] + '")';
+    show.style.opacity = '1';
+    hide.style.opacity = '0';
+}, 12000);
 
 /* ---------- запуск ---------- */
 (function init() {
