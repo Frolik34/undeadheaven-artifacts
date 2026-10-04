@@ -26,16 +26,26 @@
         min-height: 100vh;
     }
 
-    /* ---------- фон: арты загрузочных экранов, кроссфейд-ротация ---------- */
+    /* ---------- фон: арты загрузочных экранов, кроссфейд-ротация (видны, пока не грузится видео) ---------- */
     .bg-art {
-        position: fixed; inset: 0; z-index: -3;
+        position: fixed; inset: 0; z-index: -4;
         background: center / cover no-repeat fixed;
         transition: opacity 2.5s ease;
+    }
+    /* ---------- видеофон: YouTube без звука, cover-масштаб под любой экран ---------- */
+    .bg-video-wrap {
+        position: fixed; inset: 0; z-index: -3; overflow: hidden; pointer-events: none;
+        background: #070806;
+    }
+    .bg-video-wrap iframe {
+        position: absolute; top: 50%; left: 50%;
+        width: max(100vw, 177.78vh); height: max(100vh, 56.25vw);
+        transform: translate(-50%, -50%);
     }
     .bg-dim {
         position: fixed; inset: 0; z-index: -2;
         background:
-            linear-gradient(180deg, rgba(0,0,0,.93) 0%, rgba(0,0,0,.45) 16%, rgba(4,5,3,.62) 55%, rgba(0,0,0,.92) 100%),
+            linear-gradient(180deg, rgba(0,0,0,.9) 0%, rgba(0,0,0,.4) 16%, rgba(4,5,3,.45) 55%, rgba(0,0,0,.9) 100%),
             radial-gradient(ellipse at 50% 38%, rgba(0,0,0,0) 30%, rgba(0,0,0,.5) 100%);
     }
     .bg-dim::after {
@@ -374,6 +384,9 @@
 <body>
 <div class="bg-art" id="bgA"></div>
 <div class="bg-art" id="bgB" style="opacity:0"></div>
+<div class="bg-video-wrap">
+    <iframe src="https://www.youtube.com/embed/lxoeOMfeMvU?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=lxoeOMfeMvU&amp;controls=0&amp;modestbranding=1&amp;playsinline=1&amp;rel=0&amp;iv_load_policy=3&amp;disablekb=1&amp;fs=0&amp;start=20" title="UNDEADHEAVEN" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+</div>
 <div class="bg-dim"></div>
 
 <div class="container">
@@ -464,8 +477,8 @@
 
 <div class="toast" id="toast"></div>
 
-<script src="арты_база.js?v=9"></script>
-<script src="арты_иконки.js?v=9"></script>
+<script src="арты_база.js?v=10"></script>
+<script src="арты_иконки.js?v=10"></script>
 <script>
 'use strict';
 
@@ -560,7 +573,7 @@ function cardHTML(id) {
 
 function iconSrc(id) {
     const p = window.ART_ICONS && window.ART_ICONS[id];
-    return p ? encodeURI(p) + '?v=9' : '';
+    return p ? encodeURI(p) + '?v=10' : '';
 }
 
 function renderCatalog() {
